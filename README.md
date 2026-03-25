@@ -1,4 +1,4 @@
-# Título do Projeto
+# ClientHub 
 
 `CURSO: Sistemas de Informação`
 
@@ -6,20 +6,22 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Sistema de gestão de clientes com foco em trazer funcionalidades de consulta a banco de dados me maneira intuitiva e com clara visualização.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+* Davi Siqueira Rodrigues 
+* Giovanna de Abreu Bertoletti
+* Leorges Moraes da Fonseca
+* Otávio Augusto Teixeira Mota
+* Pietro Ferreira Sales
+* Rodrigo Brito de Campos
+
 
 
 ## Orientador
 
-* Nome completo do professor 1
+* Marco Rodrigo Costa
 
 # Planejamento
 
