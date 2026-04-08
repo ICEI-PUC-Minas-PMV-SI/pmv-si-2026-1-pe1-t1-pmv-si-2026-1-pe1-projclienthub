@@ -1,54 +1,48 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
+O setor bancário contemporâneo caracteriza-se por elevada complexidade operacional, envolvendo múltiplos setores que precisam atuar de forma integrada para garantir eficiência no atendimento ao cliente e mitigação de riscos financeiros. Com o avanço da digitalização dos serviços, as instituições financeiras passaram a lidar com grandes volumes de dados provenientes de diferentes fontes, tornando essencial a utilização de sistemas que permitam organizar, integrar e transformar esses dados em informações estratégicas. Nesse cenário, soluções baseadas em dashboards, scores e sistemas de informação têm papel central na melhoria da tomada de decisão.
 
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
+Além disso, a competitividade no setor financeiro exige que bancos aprimorem continuamente seus processos internos e a experiência do cliente. A integração de dados entre setores permite uma visão sistêmica do cliente, favorecendo tanto a personalização do atendimento quanto a eficiência operacional. No entanto, muitas instituições, especialmente de menor porte, ainda enfrentam dificuldades na consolidação dessas informações, o que impacta diretamente na qualidade dos serviços prestados e nos resultados financeiros.
 
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
-
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+Diante desse contexto, o presente projeto propõe o desenvolvimento de uma aplicação web capaz de centralizar e disponibilizar dados de clientes de forma integrada entre diferentes setores da instituição bancária, com foco especial nas áreas de crédito e financiamento, promovendo maior agilidade, eficiência e assertividade nos processos internos.
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, **não** é a hora de comentar sobre a solução/aplicação.
+Apesar da grande quantidade de dados disponíveis nas instituições financeiras, a falta de integração e sistematização dessas informações entre os diferentes setores ainda é um problema recorrente. Muitas vezes, os dados dos clientes não são compartilhados de maneira eficiente, o que dificulta a transformação desses dados em informações úteis para o atendimento, análise de crédito e tomada de decisão.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
+Essa fragmentação compromete a comunicação interna, aumenta a probabilidade de erros e reduz a eficiência operacional, resultando em atendimentos inadequados ou pouco personalizados. Além disso, a ausência de um sistema integrado impede que os colaboradores tenham acesso rápido, seguro e hierarquizado às informações dos clientes, o que é essencial para a mitigação de riscos, especialmente no setor de crédito.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Portanto, a inexistência de uma plataforma centralizada que organize, integre e disponibilize os dados dos clientes de forma eficiente constitui um obstáculo significativo para o desempenho das instituições financeiras.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+### Objetivo Geral
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Desenvolver uma aplicação web frontend que permita o acesso integrado aos dados dos clientes de uma instituição bancária entre diferentes setores.
+
+### Objetivos Específicos
+
+* Facilitar a extração e visualização de informações que melhorem a relação entre banco e cliente
+* Minimizar os índices de inadimplência de clientes pessoa física e jurídica
+* Desenvolver uma interface intuitiva que permita o uso da aplicação sem necessidade de treinamento especializado
+* Contribuir para a implementação de um sistema de informação eficiente dentro da instituição
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A integração de dados dentro de organizações é fundamental para transformar dados brutos em informações relevantes para a tomada de decisão. No setor bancário, essa necessidade torna-se ainda mais crítica, uma vez que o uso eficiente das informações dos clientes impacta diretamente na personalização do atendimento, na concessão de crédito e na gestão de riscos.
 
-Lembre-se de pesquisar e utilizar números que justifiquem por que é importante que tal problema seja resolvido ou que mostrem o impacto do problema na vida das pessoas.
+Mesmo com o avanço das tecnologias da informação, ainda é comum observar falhas na integração e qualidade dos dados, o que compromete a eficiência dos processos internos. A ausência de sistemas integrados reduz o potencial de geração de valor a partir dos dados e limita a capacidade das instituições de tomar decisões estratégicas baseadas em evidências.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Dados recentes evidenciam a relevância do problema: em janeiro de 2026, o Brasil registrou aproximadamente 81,3 milhões de pessoas inadimplentes, com um valor médio de dívida de R$ 6.453,29 por indivíduo. Esse cenário reforça a importância de ferramentas que auxiliem na análise de risco e na tomada de decisão no setor de crédito.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Além disso, fatores como qualidade do atendimento, agilidade na resolução de demandas e uso de tecnologia são determinantes para a satisfação dos clientes bancários. Problemas relacionados a crédito e atendimento estão entre os principais motivos de reclamação no setor, e cerca de 23% dos clientes consideram trocar de banco devido a essas insatisfações.
+
+Dessa forma, o desenvolvimento de uma aplicação que promova a integração de dados entre setores pode gerar benefícios significativos, como melhoria na performance operacional, redução de riscos, aumento da satisfação dos clientes e maior competitividade no mercado.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
+O público-alvo da aplicação são instituições financeiras que enfrentam dificuldades na organização, integração e acesso aos dados de seus clientes. Essas organizações necessitam de soluções que permitam centralizar informações e disponibilizá-las de forma prática, segura e eficiente para diferentes perfis de usuários internos.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Entre os principais usuários da aplicação estão colaboradores de diferentes áreas, como vendedores de produtos financeiros, equipes de cobrança, gerentes de conta, analistas de dados, operadores de caixa e administradores de sistemas. Esses usuários possuem diferentes níveis de conhecimento técnico e necessidades específicas, variando desde consultas rápidas de informações básicas até análises mais complexas de dados.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+De modo geral, trata-se de um público que demanda sistemas intuitivos, com acesso rápido às informações e com controle rigoroso de permissões, garantindo que dados sensíveis sejam acessados apenas por usuários autorizados. A aplicação busca atender a essas necessidades, promovendo maior fluidez no fluxo de trabalho e reduzindo a dependência entre setores para obtenção de informações.
