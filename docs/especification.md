@@ -6,55 +6,60 @@
 
 ## Personas
 
+  
 ### Persona 1 — Ana Souza (Vendedora de Produtos)
-
-![Ana Souza](<img/"ana.jpeg">)
-
-
-Ana tem 32 anos, é colaboradora de uma instituição financeira de médio porte e atua na área de vendas de produtos financeiros, como cartões de crédito, seguros e investimentos. Formada em Administração, é comunicativa e orientada a metas. Utiliza sistemas bancários diariamente e sente dificuldade em acessar rapidamente o histórico financeiro dos clientes para identificar oportunidades de oferta. Precisa de uma plataforma que centralize as informações de perfil financeiro e produtos já contratados para agilizar seu trabalho e aumentar suas conversões.
+  
+<img src="img/ana.jpeg" width= "220" align= "left"> 
+Ana tem 32 anos, é colaboradora de uma instituição financeira de médio porte e atua na área de vendas de produtos financeiros, como cartões de crédito, seguros e     investimentos. Formada em Administração, é comunicativa e orientada a metas. Utiliza sistemas bancários diariamente e sente dificuldade em acessar rapidamente o histórico financeiro dos clientes para identificar oportunidades de oferta. Precisa de uma plataforma que centralize as informações de perfil financeiro e produtos já contratados para agilizar seu trabalho e aumentar suas conversões.
+<br><br><br><br>
 
 ---
 
 ### Persona 2 — Carlos Mendes (Setor de Cobrança)
 
-![Carlos Mendes](<img width="512" height="512" alt="Carlos Mendes" src="https://github.com/user-attachments/assets/d8ee0d25-1363-4a2f-8cb2-43fd11d8d1a4" />)
-
+<img width="220" alt="Carlos Mendes" src="img/carlos.jpeg" align="left">
 Carlos tem 40 anos e trabalha há 10 anos no setor de cobrança de um banco. É analítico, metódico e precisa lidar diariamente com clientes inadimplentes. Seu maior desafio é obter rapidamente as informações sobre débitos vencidos e histórico financeiro para propor renegociações adequadas ao perfil de cada cliente. Sente que as informações estão dispersas em diferentes sistemas, o que torna o atendimento mais lento e menos efetivo.
+<br><br><br><br><br>
 
 ---
 
 ### Persona 3 — Fernanda Lima (Gerente de Conta)
 
-![Fernanda Lima](<img width="512" height="512" alt="Fernanda Lima" src="https://github.com/user-attachments/assets/95f08a93-cacb-448c-a61d-7d354c684493" />)
+<img width="220" alt="Fernanda Lima" src="img/fernanda.jpeg" align="left">
 
 Fernanda tem 45 anos, é gerente de contas de alta renda em uma agência bancária. Possui MBA em Finanças e acompanha de perto o mercado de investimentos. Precisa acessar dados pessoais e financeiros de seus clientes vinculados à agência de forma prática e segura, indicando as melhores opções de carteira conforme o perfil de risco de cada cliente. Valoriza dashboards claros e relatórios exportáveis para embasar suas decisões.
+<br><br><br><br><br>
 
 ---
 
 ### Persona 4 — Roberto Alves (Analista de Dados)
 
-![Roberto Alves](<img width="512" height="512" alt="Roberto Alves" src="https://github.com/user-attachments/assets/b7bc7cd5-810f-42bc-aca9-39a0d19eaa03" />)
+<img width="220" alt="Roberto Alves" src="img/roberto.jpeg" align="left">
 
 Roberto tem 28 anos, é cientista de dados júnior na área de inteligência do banco. Graduado em Ciência da Computação, domina ferramentas como Power BI e Excel. Seu objetivo é transformar grandes volumes de dados bancários em informações estratégicas, identificar padrões em transações e detectar possíveis comportamentos suspeitos. Precisa de uma base de dados organizada, filtros avançados e capacidade de exportação para ferramentas externas.
+<br><br><br><br><br>
 
 ---
 
 ### Persona 5 — Juliana Costa (Operadora de Caixa)
 
-![Juliana Costa](<img width="512" height="512" alt="Juliana Costa" src="https://github.com/user-attachments/assets/6cb6c579-adbe-43df-ae0a-26afa510cb71" />)
+<img width="220" alt="Juliana Costa" src="img/juliana.jpeg" align="left">
 
 Juliana tem 24 anos e trabalha como operadora de caixa em uma agência bancária. Atende dezenas de clientes por dia realizando depósitos, saques e pagamentos. Precisa consultar rapidamente o cadastro do cliente durante o atendimento, com acesso a informações básicas da conta e produtos disponíveis. Valoriza uma interface simples e rápida, pois o tempo de atendimento é um fator crítico em sua rotina.
+<br><br><br><br><br><br>
 
 ---
 
 ### Persona 6 — Marcos Vieira (Administrador de Sistemas)
 
-![Marcos Vieira](<img width="512" height="512" alt="Marcos Vieira" src="https://github.com/user-attachments/assets/38b2ef07-ac08-42df-ad78-ab3b52402938" />)
+<img width="220" alt="Marcos Vieira" src="img/marcos.jpeg" align="left">
 
 
 Marcos tem 38 anos e é responsável pela gestão técnica do sistema de informação do banco. Possui graduação em Sistemas de Informação e certificações em segurança da informação. É o responsável por criar usuários, definir níveis de acesso por setor e garantir a integridade dos dados. Precisa de uma interface administrativa eficiente que permita monitorar o funcionamento da plataforma e restringir o acesso a informações sensíveis conforme a hierarquia da instituição.
+<br><br><br><br><br>
 
 ---
+<br>
 
 ## Histórias de Usuários
 
