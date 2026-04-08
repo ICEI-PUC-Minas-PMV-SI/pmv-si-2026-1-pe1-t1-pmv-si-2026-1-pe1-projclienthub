@@ -8,7 +8,7 @@
 
 ### Persona 1 — Ana Souza (Vendedora de Produtos)
 
-![Ana Souza](<img width="512" height="512" alt="Ana Souza" src="https://github.com/user-attachments/assets/77a9da8b-834c-471d-8019-cbeea211ed45" />)
+![Ana Souza](<img width="50%" height="50%" alt="Ana Souza" src="docs/img/ana.jpeg" />)
 
 
 Ana tem 32 anos, é colaboradora de uma instituição financeira de médio porte e atua na área de vendas de produtos financeiros, como cartões de crédito, seguros e investimentos. Formada em Administração, é comunicativa e orientada a metas. Utiliza sistemas bancários diariamente e sente dificuldade em acessar rapidamente o histórico financeiro dos clientes para identificar oportunidades de oferta. Precisa de uma plataforma que centralize as informações de perfil financeiro e produtos já contratados para agilizar seu trabalho e aumentar suas conversões.
