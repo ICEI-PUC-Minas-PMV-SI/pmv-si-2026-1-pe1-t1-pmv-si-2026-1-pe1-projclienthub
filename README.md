@@ -6,7 +6,7 @@
 
 `SEMESTRE: 1º`
 
-Sistema de gestão de clientes com foco em trazer funcionalidades de consulta a banco de dados me maneira intuitiva e com clara visualização.
+Sistema de gestão de clientes com foco em trazer funcionalidades de consulta a banco de dados de maneira intuitiva e com clara visualização.
 
 ## Integrantes
 
