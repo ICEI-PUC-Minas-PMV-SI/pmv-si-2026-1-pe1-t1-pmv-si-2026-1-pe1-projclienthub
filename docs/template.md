@@ -1,5 +1,5 @@
 # Template padrão do site
-o layout segue um sistema de uma aplicação online em que o usuário precisa se autenticar para que as demais funções do sistema sejam exibidas. 
+O layout segue um sistema de uma aplicação online em que o usuário precisa se autenticar para que as demais funções do sistema sejam exibidas. 
 
 Na página inicial antes do login, a página apresenta um menu side-bar, que quando expandido, apresenta a opção de login e informações instituicioanis da aplicação, e o infobox para colocar senha e e-mail, com o logo da aplicação. 
 
@@ -39,12 +39,3 @@ Houve leve espaçamento entre as letras de 0.5px.
 Foi utilizado apenas um ícone de visualizar senha na página de login. 
 
 Nesse projeto não foi utilizado ícones personalizados, apenas um indicador para visualizar ou ocultar a senha do usuário para acessar a plataforma. 
-
-
-> **Links Úteis**:
->
-> -  [Como criar um guia de estilo de design da Web](https://edrodrigues.com.br/blog/como-criar-um-guia-de-estilo-de-design-da-web/#)
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
