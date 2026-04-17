@@ -27,6 +27,8 @@ previamente cadastrado e confirmado.
 
 Campos de usuário/e-mail, senha, botões "Esqueci a senha", cadastro via página de cadastro para confirmar.
 
+---
+
 # Página para recuperação de senha
 
 ![Recuperação de senha](img/rcp-senha.png)
@@ -36,6 +38,8 @@ Esta tela consiste da recuperação de senha do usuário e será acionada a part
 Requisito: Permitir que o usuário recupere a senha de forma fácil e segura, por meio de link enviado ao e-mail institucional.
 
 Elementos Estruturais: Campo para digitalização do e-mail institucional e botão para confirmação de envio
+
+---
 
 # Página para Nova senha
 
@@ -48,6 +52,8 @@ Requisito: Permitir que o usuário cadastre nova senha por meio de digitação e
 Elementos Estruturais: Possibilidade de cadastrar nova senha em elementos estruturais de campos para digitação e confirmação, seguido por envio. Os requisitos mínimos de segurança para nova senha serão estabelecidos e à medida que forem cumpridos os textos dos requisitos listados mudarão de cor para verde.
 
 Campo de digitação de nova senha, campo para confirmação de nova senha, botão para envio e campo fixo com requisitos mínimos de segurança da nova senha.
+
+---
 
 # Página para busca de perfil de cliente
 
@@ -64,6 +70,8 @@ Marcadores: imagem do cliente e área com link a últimas pesquisas de cliente.
 
 Campos do Formulário: Campos de busca de perfil completo do cliente já cessado e cadastro de novo cliente. Campo de busca por nome ou cpf com resultados linkados às contas e aplicaçõe do cliente.
 
+---
+
 # Página 1 para cadastro de novo cliente
 
 ![Cadastro Cliente](img/cdst-cliente.png)
@@ -78,6 +86,8 @@ Menus de Navegação: Os links de navegação para a página 2 de cadastro encon
 Marcadores: Área para observações.
 
 Campos do Formulário: Campos de busca de entrada de dados, campo para captura de imagem, campo para observações.
+
+---
 
 # Página 2 para cadastro de novo cliente
 
@@ -94,6 +104,8 @@ Menus de Navegação: O botão de navegação para a “Página de busca do perf
 os campos drop-down com informações complementares financeiras e de patrimônio: faixa de gasto mensal aproximado, patrimônio familiar, inadiplência,posse de imóvel, financiamento de imóvel(s), seguro de vida, seguro saúde, posse veicular, financiamento de veículos, cartões, dívida de cartões, contas em outros bancos. Campo para observações.
 
 Campos do Formulário: Campos de entrada de dados em duas áreas, campo para observações e botão para acesso à “página de Busca de Perfil de Cliente”. Os campos de nome, CPF e imagem do cliente serão carregados automaticamente a partir do preenchimento da página 1 do cadastro.
+
+---
 
 # Página com perfil completo do cliente / Dashboard
 
