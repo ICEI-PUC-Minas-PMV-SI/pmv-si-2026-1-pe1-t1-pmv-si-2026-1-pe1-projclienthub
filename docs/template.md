@@ -1,4 +1,6 @@
 # Template padrão do site
+> Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+
 O layout segue um sistema de uma aplicação online em que o usuário precisa se autenticar para que as demais funções do sistema sejam exibidas. 
 
 Na página inicial antes do login, a página apresenta um menu side-bar, que quando expandido, apresenta a opção de login e informações instituicioanis da aplicação, e o infobox para colocar senha e e-mail, com o logo da aplicação. 
