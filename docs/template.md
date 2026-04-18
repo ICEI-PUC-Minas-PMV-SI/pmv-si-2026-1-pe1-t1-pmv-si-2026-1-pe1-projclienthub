@@ -17,14 +17,9 @@ Para o design foi escolhido cores que transpareçam um sistema equiparado ao sis
 
 
 ## Cores
+<img width="1468" height="207" alt="image" src="https://github.com/user-attachments/assets/852e4857-153b-460a-815e-75fa8b57715a" />
 
-Cores principais (background): 
-1 - #4955473 - Fundo principal de todo projeto.  
-2 - #555C73 - Containers secundários (Cards, barras de pesquisa, etc) 
 
-Cor complementar 
-Cor utilizada dentro dos botões para login, e barra de informações do usuário, e na borda que envolve as caixas. 
-#BF9169
 
 
 ## Tipografia
