@@ -111,7 +111,7 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 
 | ID | Descrição do Requisito | Prioridade |
 |---|---|---|
-| RNF-001 |	Controle de acesso baseado em perfis (RBAC) cada rota e ação verifica o perfil antes de executar | MÉDIA |
+| RNF-001 |	Controle de acesso baseado em perfis cada rota e ação verifica o perfil antes de executar | MÉDIA |
 | RNF-002 |	Mascarar campos sensíveis (ex.: CPF, score) na exibição para perfis sem permissão explícita | ALTA |
 | RNF-003 |	Tratar dados pessoais conforme LGPD: minimização, finalidade e rastreabilidade de acesso | ALTA |
 | RNF-004 |	Busca por ID deve retornar resultado em até 2 segundos em condições normais de carga | BAIXA |
