@@ -11,6 +11,19 @@ O container central conta com: Campo de pesquisa, cards de informação e açõe
 
 O rodapé vai conter uma informação constitucional. 
 
+<img width="900" height="640" alt="image" src="https://github.com/user-attachments/assets/af898915-1200-4e76-96ea-de0102bdb328" />
+<br>
+<img width="999" height="726" alt="image" src="https://github.com/user-attachments/assets/c7cfdd83-4b61-41af-8760-ed4641f750b1" />
+<br>
+<img width="1004" height="733" alt="image" src="https://github.com/user-attachments/assets/684d2b54-c929-4055-9573-1862a7431cbf" />
+<br>
+<img width="1004" height="723" alt="image" src="https://github.com/user-attachments/assets/75570434-fccf-4d45-998b-2f09bd8ad1a9" />
+<br>
+<img width="996" height="726" alt="image" src="https://github.com/user-attachments/assets/fbc67b29-27d0-4920-93fb-37229762a247" />
+
+
+
+
 ## Design
 
 Para o design foi escolhido cores que transpareçam um sistema equiparado ao sistema de uma instituição bancária, como cores sóbreas de azul misturado com dourado, que combina com um ambiente corporativo, e trazendo um sistema simplista, funcional e limpo em seu visual. 
