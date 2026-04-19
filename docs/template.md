@@ -41,3 +41,21 @@ Houve leve espaçamento entre as letras de 0.5px.
 Foi utilizado apenas um ícone de visualizar senha na página de login. 
 
 Nesse projeto não foi utilizado ícones personalizados, apenas um indicador para visualizar ou ocultar a senha do usuário para acessar a plataforma. 
+
+---
+
+# Responsividade
+
+<img src="img/Tela Padrão Desktop.png" width="70%">
+
+> Imagem em Desktop tradicional
+<br>
+
+<img src="img/Tela Vertical.png" width="50%">
+
+> Imagem em telas verticais
+<br>
+
+<img src="img/Tela Mobile.png" width="35%">
+
+> Imagem em dispositivos mobile
