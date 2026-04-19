@@ -88,22 +88,40 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 
 | ID | Descrição do Requisito | Prioridade |
 |---|---|---|
-| RF-001 | A aplicação deve permitir pesquisar clientes pelo nome ou código de identificação | ALTA |
-| RF-002 | A aplicação deve permitir filtrar clientes por atribuições diferentes (perfil, adimplência, score) | ALTA |
-| RF-003 | A aplicação deve exibir o nome completo e o número de identificação do cliente após a pesquisa | ALTA |
-| RF-004 | A aplicação deve permitir o cadastro de usuários com restrição de acesso a dados sensíveis, restringindo a edição de dados apenas a administradores | MÉDIA |
-| RF-005 | A aplicação deve disponibilizar um dashboard com métricas para visualização e análise de dados | MÉDIA |
+| RF-001 | Exibir tela de login com campos de usuário e senha, validar credenciais e exibir mensagem de erro em caso de falha | ALTA |
+| RF-002 | Bloquear acesso após tentativas inválidas consecutivas e encerrar sessão automaticamente por inatividade | ALTA |
+| RF-003 | Permitir logout manual e redirecionar o usuário para a tela adequada ao seu perfil após login | ALTA |
+| RF-004 | Listar, cadastrar e editar usuários com nome, e-mail, perfil de acesso e status | MÉDIA |
+| RF-005 | Definir e restringir perfis de acesso (Administrador, Analista, Gerente, Operador), bloqueando áreas não autorizadas | MÉDIA |
+| RF-006 | Pesquisar cliente por CPF/CNPJ ou ID interno exibindo nome completo e identificação para confirmação | ALTA |
+| RF-007 | Pesquisar cliente por nome com autocompletar a partir do 2º caractere | MÉDIA |
+| RF-008 | Listar clientes com paginação, total de registros e ordenação ascendente/descendente por qualquer coluna | ALTA |
+| RF-009 | Filtrar clientes por perfil de risco, situação de inadimplência e faixa de score, permitindo combinação simultânea de filtros | ALTA |
+| RF-010 | Exibir página de perfil consolidado com dados cadastrais, produtos contratados (status e data) e score com indicação visual de risco | ALTA |
+| RF-011 | Exibir histórico de inadimplência com data e valor, e pendências financeiras ativas com valor e vencimento | ALTA |
+| RF-012 | Restringir exibição de dados sensíveis (score, inadimplência) conforme perfil de acesso do usuário | ALTA |
+| RF-013 | Exibir cards com total de clientes ativos e percentual/quantidade de inadimplentes | ALTA |
+| RF-014 | Exibir gráfico de distribuição de clientes por faixa de score e volume de produtos contratados por tipo | ALTA |
+| RF-015 | Permitir seleção de período de análise e atualizar todas as métricas do dashboard ao alterá-lo | MÉDIA |
+| RF-016 | Gerar relatório com base nos filtros ativos e exibir prévia dos dados antes de confirmar a exportação | MÉDIA |
+| RF-017 | Exportar relatório em Excel (.xlsx) com colunas tipadas e em CSV compatível com Power BI | MÉDIA |
+| RF-018 | Registrar em log cada exportação realizada com usuário, data e filtros aplicados | MÉDIA |
 
 ### Requisitos Não Funcionais
 
 | ID | Descrição do Requisito | Prioridade |
 |---|---|---|
-| RNF-001 | A aplicação deve permitir filtrar e ordenar registros em ordem ascendente ou descendente conforme cada característica | ALTA |
-| RNF-002 | A aplicação deve exibir uma página de perfil do cliente reunindo os dados relevantes de forma consolidada | ALTA |
-| RNF-003 | A aplicação deve manter o histórico do cliente (produtos contratados, adimplência, etc.) | MÉDIA |
-| RNF-004 | A aplicação deve permitir adicionar tags para clientes com alguma inadequação (score baixo, inadimplência, etc.) | MÉDIA |
-| RNF-005 | A aplicação deve emitir relatórios para impressão ou integração com outras ferramentas (Power BI, Excel, etc.) | BAIXA |
-| RNF-006 | A aplicação deve oferecer autocompletar ao pesquisar pelo nome do cliente | BAIXA |
+| RNF-001 |	Controle de acesso baseado em perfis cada rota e ação verifica o perfil antes de executar | MÉDIA |
+| RNF-002 |	Mascarar campos sensíveis (ex.: CPF, score) na exibição para perfis sem permissão explícita | ALTA |
+| RNF-003 |	Tratar dados pessoais conforme LGPD: minimização, finalidade e rastreabilidade de acesso | ALTA |
+| RNF-004 |	Busca por ID deve retornar resultado em até 2 segundos em condições normais de carga | BAIXA |
+| RNF-005 |	Página de perfil completo deve carregar em até 2 segundos | BAIXA |
+| RNF-006 |	Dashboard deve renderizar com dados atualizados em até 3 segundos | BAIXA |
+| RNF-007 |	Interface responsiva funcional em resoluções de 1024px a 1920px | MÉDIA |
+| RNF-008 |	Mensagens de erro e sucesso visíveis e descritivas ao usuário | MÉDIA |
+| RNF-009 |	Falhas em exportação devem exibir mensagem de erro sem perder os filtros selecionados | MÉDIA |
+
+
 
 ---
 
