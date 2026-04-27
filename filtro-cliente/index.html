@@ -1,58 +1,56 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8"
-    <title>"ClienteHub"</title>
-    <link rel="stylesheet" href="style.css"
-</head>    
+  <meta charset="UTF-8">
+  <title>Client Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
 
-    <h1> Relatório de Clientes</h1>
+  <h1>Relatório de Clientes</h1>
 
-    <div class="filtros"
-        <input type="text" placeholder="Nome do Cliente"
+  <div class="filtros">
+    <input type="text" placeholder="Nome do cliente">
+    
+    <select>
+      <option>Status</option>
+      <option>Ativo</option>
+      <option>Inativo</option>
+    </select>
 
-        <select>
-            <option>Status</option>
-            <option>Ativo</option>
-            <option>Inativo</option>
-        </select>
+    <input type="date">
 
-        <input type-="date">
+    <button>Gerar Relatório</button>
+  </div>
 
-        <button>Gerar Relatório</button>
-    </div>
+  <div class="tabela">
+    <table>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Saldo</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>João</td>
+          <td>R$ 1500</td>
+          <td>Ativo</td>
+        </tr>
+        <tr>
+          <td>Maria</td>
+          <td>R$ 3200</td>
+          <td>Inativo</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
-    <div class-="tabela">
-        <table>
-            <thead>
-                <tr>
-                    <th>Nome</th>
-                    <th>Saldo</th>
-                    <th>Status</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>João</td>
-                    <td>R$ 1500</td>
-                    <td>Ativo</td>
-                </tr>
-            </tbody>
-            <tbody>
-                <tr>
-                    <td>Maria</td>
-                    <td>3200</td>
-                    <td>Inativo</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
-    <div class="exportar"
-        <button>Exportar CSV</button>
-        <button>Exporar Excel</button>
-</div>
+  <div class="exportar">
+    <button>Exportar CSV</button>
+    <button>Exportar Excel</button>
+  </div>
 
 </body>
 </html>
