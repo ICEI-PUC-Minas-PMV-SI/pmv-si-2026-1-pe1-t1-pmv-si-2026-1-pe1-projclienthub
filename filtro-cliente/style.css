@@ -4,3 +4,19 @@ body {
     background: #4a5572; /* fundo azul */
     color: white;
 }
+
+/*TOPO */ 
+.topo {
+    padding: 15px 30px;
+}
+
+/* LAYOUT GERAL */ 
+.container {
+    display: flex;
+}
+
+/*SIDEBAR */ 
+.sidebar {
+    width: 250px;
+    padding: 20px;
+}
