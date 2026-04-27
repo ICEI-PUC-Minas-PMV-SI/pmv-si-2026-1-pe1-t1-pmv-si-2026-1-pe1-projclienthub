@@ -15,10 +15,12 @@ h1 {
   margin-bottom: 20px;
 }
 
-input, select, button {
-  padding: 8px;
-  border-radius: 6px;
-  border: 1px solid #555C73;
+input, select {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #555C73;
+  color: #ffffff;
 }
 
 button {
@@ -36,15 +38,21 @@ table {
   width: 100%;
   border-collapse: collapse;
   background: #555C73;
+  color: white;
 }
 
 th, td {
   padding: 10px;
   border-bottom: 1px solid #F2D852;
+  color: #fffff; 
 }
 
 .exportar {
   margin-top: 20px;
   display: flex;
   gap: 10px;
+}
+
+input::placeholder {
+  color: #cccccc;
 }
