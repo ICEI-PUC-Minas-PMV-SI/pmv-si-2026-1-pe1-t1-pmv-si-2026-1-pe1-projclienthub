@@ -1,11 +1,12 @@
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
-  background: #f5f6fa;
+  background: #495373;
 }
 
 h1 {
   margin-bottom: 20px;
+  color: #ccc;
 }
 
 .filtros {
@@ -17,12 +18,12 @@ h1 {
 input, select, button {
   padding: 8px;
   border-radius: 6px;
-  border: 1px solid #ccc;
+  border: 1px solid #555C73;
 }
 
 button {
-  background: #007bff;
-  color: white;
+  background: #BF9169;
+  color: #ccc;
   border: none;
   cursor: pointer;
 }
@@ -34,12 +35,12 @@ button:hover {
 table {
   width: 100%;
   border-collapse: collapse;
-  background: white;
+  background: #555C73;
 }
 
 th, td {
   padding: 10px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #F2D852;
 }
 
 .exportar {
