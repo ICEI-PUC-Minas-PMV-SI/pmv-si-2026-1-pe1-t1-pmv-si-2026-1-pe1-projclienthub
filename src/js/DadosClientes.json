@@ -1,0 +1,1002 @@
+[
+  {
+    "nome": "Maria Pereira",
+    "idade": 33,
+    "cidade": "São Paulo",
+    "perfil_investidor": "conservador",
+    "score": 650,
+    "cpf": "001.112.223-34",
+    "telefone": "(85) 91136-5601",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Rafael Nascimento",
+    "idade": 64,
+    "cidade": "Salvador",
+    "perfil_investidor": "medio risco",
+    "score": 680,
+    "cpf": "002.113.224-35",
+    "telefone": "(71) 96929-1602",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Carlos Pereira",
+    "idade": 60,
+    "cidade": "Salvador",
+    "perfil_investidor": "alto risco",
+    "score": 40,
+    "cpf": "003.114.225-36",
+    "telefone": "(31) 91267-3278",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Rafael Nascimento",
+    "idade": 20,
+    "cidade": "Porto Alegre",
+    "perfil_investidor": "alto risco",
+    "score": 690,
+    "cpf": "004.115.226-37",
+    "telefone": "(31) 97613-2680",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Carlos Silva",
+    "idade": 23,
+    "cidade": "Fortaleza",
+    "perfil_investidor": "conservador",
+    "score": 290,
+    "cpf": "005.116.227-38",
+    "telefone": "(85) 96202-4835",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "João Pereira",
+    "idade": 64,
+    "cidade": "Curitiba",
+    "perfil_investidor": "medio risco",
+    "score": 990,
+    "cpf": "006.117.228-39",
+    "telefone": "(61) 94273-7330",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "João Pereira",
+    "idade": 50,
+    "cidade": "Belo Horizonte",
+    "perfil_investidor": "medio risco",
+    "score": 340,
+    "cpf": "007.118.229-40",
+    "telefone": "(31) 95187-5721",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Juliana Souza",
+    "idade": 30,
+    "cidade": "Rio de Janeiro",
+    "perfil_investidor": "alto risco",
+    "score": 770,
+    "cpf": "008.119.230-41",
+    "telefone": "(41) 91315-5468",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "João Silva",
+    "idade": 57,
+    "cidade": "Fortaleza",
+    "perfil_investidor": "conservador",
+    "score": 150,
+    "cpf": "009.120.231-42",
+    "telefone": "(31) 96503-8992",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Lucas Nascimento",
+    "idade": 31,
+    "cidade": "Fortaleza",
+    "perfil_investidor": "alto risco",
+    "score": 330,
+    "cpf": "010.121.232-43",
+    "telefone": "(31) 96717-9853",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Pedro Silva",
+    "idade": 51,
+    "cidade": "Rio de Janeiro",
+    "perfil_investidor": "conservador",
+    "score": 610,
+    "cpf": "011.122.233-44",
+    "telefone": "(51) 98497-1052",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Lucas Costa",
+    "idade": 29,
+    "cidade": "Curitiba",
+    "perfil_investidor": "conservador",
+    "score": 480,
+    "cpf": "012.123.234-45",
+    "telefone": "(41) 91309-1750",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Lucas Silva",
+    "idade": 49,
+    "cidade": "Porto Alegre",
+    "perfil_investidor": "medio risco",
+    "score": 270,
+    "cpf": "013.124.235-46",
+    "telefone": "(61) 99947-5433",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Carlos Souza",
+    "idade": 57,
+    "cidade": "Belo Horizonte",
+    "perfil_investidor": "medio risco",
+    "score": 260,
+    "cpf": "014.125.236-47",
+    "telefone": "(21) 94289-5306",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Juliana Oliveira",
+    "idade": 27,
+    "cidade": "Fortaleza",
+    "perfil_investidor": "conservador",
+    "score": 140,
+    "cpf": "015.126.237-48",
+    "telefone": "(31) 94547-2473",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "João Lima",
+    "idade": 53,
+    "cidade": "Belo Horizonte",
+    "perfil_investidor": "conservador",
+    "score": 920,
+    "cpf": "016.127.238-49",
+    "telefone": "(11) 96850-6138",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Fernanda Rodrigues",
+    "idade": 69,
+    "cidade": "Salvador",
+    "perfil_investidor": "conservador",
+    "score": 840,
+    "cpf": "017.128.239-50",
+    "telefone": "(21) 97692-9714",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "João Nascimento",
+    "idade": 45,
+    "cidade": "Rio de Janeiro",
+    "perfil_investidor": "conservador",
+    "score": 800,
+    "cpf": "018.129.240-51",
+    "telefone": "(61) 95531-9202",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Juliana Santos",
+    "idade": 37,
+    "cidade": "Brasília",
+    "perfil_investidor": "medio risco",
+    "score": 740,
+    "cpf": "019.130.241-52",
+    "telefone": "(71) 97489-7161",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Carlos Souza",
+    "idade": 44,
+    "cidade": "Porto Alegre",
+    "perfil_investidor": "conservador",
+    "score": 120,
+    "cpf": "020.131.242-53",
+    "telefone": "(31) 91409-1171",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Ana Oliveira",
+    "idade": 30,
+    "cidade": "Belo Horizonte",
+    "perfil_investidor": "medio risco",
+    "score": 80,
+    "cpf": "021.132.243-54",
+    "telefone": "(61) 98573-4575",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Camila Lima",
+    "idade": 32,
+    "cidade": "Curitiba",
+    "perfil_investidor": "alto risco",
+    "score": 300,
+    "cpf": "022.133.244-55",
+    "telefone": "(71) 94997-7523",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Ana Lima",
+    "idade": 57,
+    "cidade": "Fortaleza",
+    "perfil_investidor": "conservador",
+    "score": 0,
+    "cpf": "023.134.245-56",
+    "telefone": "(51) 92329-6900",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Juliana Oliveira",
+    "idade": 43,
+    "cidade": "Brasília",
+    "perfil_investidor": "conservador",
+    "score": 120,
+    "cpf": "024.135.246-57",
+    "telefone": "(41) 96564-6892",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Pedro Silva",
+    "idade": 39,
+    "cidade": "Fortaleza",
+    "perfil_investidor": "medio risco",
+    "score": 370,
+    "cpf": "025.136.247-58",
+    "telefone": "(61) 97051-8739",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Ana Souza",
+    "idade": 50,
+    "cidade": "Belo Horizonte",
+    "perfil_investidor": "alto risco",
+    "score": 710,
+    "cpf": "026.137.248-59",
+    "telefone": "(41) 93480-8785",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Carlos Santos",
+    "idade": 55,
+    "cidade": "Fortaleza",
+    "perfil_investidor": "alto risco",
+    "score": 620,
+    "cpf": "027.138.249-60",
+    "telefone": "(21) 95812-3476",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Maria Costa",
+    "idade": 36,
+    "cidade": "Curitiba",
+    "perfil_investidor": "alto risco",
+    "score": 220,
+    "cpf": "028.139.250-61",
+    "telefone": "(21) 94033-5249",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Rafael Costa",
+    "idade": 22,
+    "cidade": "Fortaleza",
+    "perfil_investidor": "conservador",
+    "score": 460,
+    "cpf": "029.140.251-62",
+    "telefone": "(85) 92958-7059",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Maria Pereira",
+    "idade": 20,
+    "cidade": "Curitiba",
+    "perfil_investidor": "alto risco",
+    "score": 0,
+    "cpf": "030.141.252-63",
+    "telefone": "(61) 92448-6484",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Camila Rodrigues",
+    "idade": 36,
+    "cidade": "Curitiba",
+    "perfil_investidor": "medio risco",
+    "score": 400,
+    "cpf": "031.142.253-64",
+    "telefone": "(51) 99831-8552",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Maria Costa",
+    "idade": 54,
+    "cidade": "São Paulo",
+    "perfil_investidor": "alto risco",
+    "score": 630,
+    "cpf": "032.143.254-65",
+    "telefone": "(31) 92166-1834",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Pedro Rodrigues",
+    "idade": 58,
+    "cidade": "Curitiba",
+    "perfil_investidor": "alto risco",
+    "score": 510,
+    "cpf": "033.144.255-66",
+    "telefone": "(11) 93089-5031",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Rafael Rodrigues",
+    "idade": 61,
+    "cidade": "Porto Alegre",
+    "perfil_investidor": "conservador",
+    "score": 700,
+    "cpf": "034.145.256-67",
+    "telefone": "(85) 94452-1748",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Fernanda Nascimento",
+    "idade": 66,
+    "cidade": "Rio de Janeiro",
+    "perfil_investidor": "conservador",
+    "score": 110,
+    "cpf": "035.146.257-68",
+    "telefone": "(31) 94202-4030",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Maria Almeida",
+    "idade": 59,
+    "cidade": "Fortaleza",
+    "perfil_investidor": "medio risco",
+    "score": 750,
+    "cpf": "036.147.258-69",
+    "telefone": "(21) 91267-9723",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Carlos Oliveira",
+    "idade": 57,
+    "cidade": "Fortaleza",
+    "perfil_investidor": "alto risco",
+    "score": 290,
+    "cpf": "037.148.259-70",
+    "telefone": "(71) 98986-7563",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Rafael Silva",
+    "idade": 44,
+    "cidade": "Belo Horizonte",
+    "perfil_investidor": "alto risco",
+    "score": 350,
+    "cpf": "038.149.260-71",
+    "telefone": "(85) 92026-6327",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Juliana Pereira",
+    "idade": 69,
+    "cidade": "São Paulo",
+    "perfil_investidor": "medio risco",
+    "score": 220,
+    "cpf": "039.150.261-72",
+    "telefone": "(11) 92930-7259",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Pedro Pereira",
+    "idade": 55,
+    "cidade": "Curitiba",
+    "perfil_investidor": "conservador",
+    "score": 710,
+    "cpf": "040.151.262-73",
+    "telefone": "(21) 92538-2654",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "João Pereira",
+    "idade": 29,
+    "cidade": "Curitiba",
+    "perfil_investidor": "alto risco",
+    "score": 980,
+    "cpf": "041.152.263-74",
+    "telefone": "(31) 91419-9395",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Carlos Pereira",
+    "idade": 52,
+    "cidade": "Salvador",
+    "perfil_investidor": "medio risco",
+    "score": 30,
+    "cpf": "042.153.264-75",
+    "telefone": "(71) 93056-5700",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Lucas Rodrigues",
+    "idade": 34,
+    "cidade": "São Paulo",
+    "perfil_investidor": "medio risco",
+    "score": 610,
+    "cpf": "043.154.265-76",
+    "telefone": "(41) 96842-3579",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Carlos Rodrigues",
+    "idade": 18,
+    "cidade": "Belo Horizonte",
+    "perfil_investidor": "medio risco",
+    "score": 170,
+    "cpf": "044.155.266-77",
+    "telefone": "(21) 96032-2860",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Carlos Almeida",
+    "idade": 36,
+    "cidade": "São Paulo",
+    "perfil_investidor": "medio risco",
+    "score": 400,
+    "cpf": "045.156.267-78",
+    "telefone": "(41) 92764-9947",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Juliana Almeida",
+    "idade": 27,
+    "cidade": "Belo Horizonte",
+    "perfil_investidor": "conservador",
+    "score": 40,
+    "cpf": "046.157.268-79",
+    "telefone": "(71) 91926-8757",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Ana Almeida",
+    "idade": 44,
+    "cidade": "Brasília",
+    "perfil_investidor": "medio risco",
+    "score": 440,
+    "cpf": "047.158.269-80",
+    "telefone": "(41) 95054-6515",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Fernanda Pereira",
+    "idade": 40,
+    "cidade": "Fortaleza",
+    "perfil_investidor": "alto risco",
+    "score": 240,
+    "cpf": "048.159.270-81",
+    "telefone": "(21) 96300-5846",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Juliana Almeida",
+    "idade": 43,
+    "cidade": "Rio de Janeiro",
+    "perfil_investidor": "conservador",
+    "score": 130,
+    "cpf": "049.160.271-82",
+    "telefone": "(61) 95087-3910",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Lucas Pereira",
+    "idade": 43,
+    "cidade": "Rio de Janeiro",
+    "perfil_investidor": "alto risco",
+    "score": 740,
+    "cpf": "050.161.272-83",
+    "telefone": "(51) 94921-1151",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Pedro Costa",
+    "idade": 50,
+    "cidade": "Rio de Janeiro",
+    "perfil_investidor": "alto risco",
+    "score": 570,
+    "cpf": "051.162.273-84",
+    "telefone": "(61) 99489-2619",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Pedro Souza",
+    "idade": 32,
+    "cidade": "Salvador",
+    "perfil_investidor": "medio risco",
+    "score": 440,
+    "cpf": "052.163.274-85",
+    "telefone": "(11) 97540-3873",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Fernanda Lima",
+    "idade": 27,
+    "cidade": "Curitiba",
+    "perfil_investidor": "conservador",
+    "score": 660,
+    "cpf": "053.164.275-86",
+    "telefone": "(85) 99162-3928",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Juliana Nascimento",
+    "idade": 21,
+    "cidade": "Porto Alegre",
+    "perfil_investidor": "medio risco",
+    "score": 370,
+    "cpf": "054.165.276-87",
+    "telefone": "(41) 95221-9745",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Pedro Lima",
+    "idade": 60,
+    "cidade": "Rio de Janeiro",
+    "perfil_investidor": "alto risco",
+    "score": 840,
+    "cpf": "055.166.277-88",
+    "telefone": "(21) 99319-1642",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Lucas Costa",
+    "idade": 57,
+    "cidade": "São Paulo",
+    "perfil_investidor": "medio risco",
+    "score": 0,
+    "cpf": "056.167.278-89",
+    "telefone": "(85) 99588-9646",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Fernanda Santos",
+    "idade": 68,
+    "cidade": "Curitiba",
+    "perfil_investidor": "conservador",
+    "score": 350,
+    "cpf": "057.168.279-90",
+    "telefone": "(71) 95540-8129",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "João Santos",
+    "idade": 35,
+    "cidade": "Porto Alegre",
+    "perfil_investidor": "conservador",
+    "score": 870,
+    "cpf": "058.169.280-91",
+    "telefone": "(41) 98675-9111",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Camila Lima",
+    "idade": 40,
+    "cidade": "Porto Alegre",
+    "perfil_investidor": "alto risco",
+    "score": 310,
+    "cpf": "059.170.281-92",
+    "telefone": "(31) 95527-2918",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Fernanda Santos",
+    "idade": 35,
+    "cidade": "Belo Horizonte",
+    "perfil_investidor": "alto risco",
+    "score": 780,
+    "cpf": "060.171.282-93",
+    "telefone": "(85) 99165-7235",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Maria Souza",
+    "idade": 53,
+    "cidade": "Salvador",
+    "perfil_investidor": "conservador",
+    "score": 120,
+    "cpf": "061.172.283-94",
+    "telefone": "(71) 92691-2590",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Fernanda Costa",
+    "idade": 26,
+    "cidade": "Curitiba",
+    "perfil_investidor": "conservador",
+    "score": 240,
+    "cpf": "062.173.284-95",
+    "telefone": "(11) 93897-4518",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Carlos Costa",
+    "idade": 65,
+    "cidade": "Fortaleza",
+    "perfil_investidor": "alto risco",
+    "score": 770,
+    "cpf": "063.174.285-96",
+    "telefone": "(51) 96523-3822",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "João Lima",
+    "idade": 34,
+    "cidade": "Porto Alegre",
+    "perfil_investidor": "alto risco",
+    "score": 60,
+    "cpf": "064.175.286-97",
+    "telefone": "(21) 92020-5105",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Juliana Nascimento",
+    "idade": 26,
+    "cidade": "Porto Alegre",
+    "perfil_investidor": "alto risco",
+    "score": 400,
+    "cpf": "065.176.287-98",
+    "telefone": "(61) 91936-1134",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Rafael Rodrigues",
+    "idade": 51,
+    "cidade": "Belo Horizonte",
+    "perfil_investidor": "conservador",
+    "score": 450,
+    "cpf": "066.177.288-99",
+    "telefone": "(21) 92267-6341",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "João Santos",
+    "idade": 53,
+    "cidade": "Brasília",
+    "perfil_investidor": "alto risco",
+    "score": 150,
+    "cpf": "067.178.289-00",
+    "telefone": "(41) 91431-8980",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Juliana Rodrigues",
+    "idade": 32,
+    "cidade": "Fortaleza",
+    "perfil_investidor": "medio risco",
+    "score": 610,
+    "cpf": "068.179.290-01",
+    "telefone": "(21) 95155-2528",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Pedro Costa",
+    "idade": 66,
+    "cidade": "Curitiba",
+    "perfil_investidor": "medio risco",
+    "score": 850,
+    "cpf": "069.180.291-02",
+    "telefone": "(31) 96238-9289",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Lucas Silva",
+    "idade": 50,
+    "cidade": "Brasília",
+    "perfil_investidor": "medio risco",
+    "score": 950,
+    "cpf": "070.181.292-03",
+    "telefone": "(51) 95318-8774",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Maria Silva",
+    "idade": 32,
+    "cidade": "Porto Alegre",
+    "perfil_investidor": "conservador",
+    "score": 760,
+    "cpf": "071.182.293-04",
+    "telefone": "(71) 99250-9720",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Rafael Rodrigues",
+    "idade": 35,
+    "cidade": "Porto Alegre",
+    "perfil_investidor": "conservador",
+    "score": 230,
+    "cpf": "072.183.294-05",
+    "telefone": "(71) 93678-1834",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Rafael Almeida",
+    "idade": 47,
+    "cidade": "Belo Horizonte",
+    "perfil_investidor": "medio risco",
+    "score": 210,
+    "cpf": "073.184.295-06",
+    "telefone": "(71) 97812-6450",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Ana Nascimento",
+    "idade": 47,
+    "cidade": "São Paulo",
+    "perfil_investidor": "conservador",
+    "score": 650,
+    "cpf": "074.185.296-07",
+    "telefone": "(61) 92819-1233",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Fernanda Costa",
+    "idade": 25,
+    "cidade": "Belo Horizonte",
+    "perfil_investidor": "alto risco",
+    "score": 600,
+    "cpf": "075.186.297-08",
+    "telefone": "(41) 96671-2412",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Lucas Pereira",
+    "idade": 25,
+    "cidade": "São Paulo",
+    "perfil_investidor": "alto risco",
+    "score": 220,
+    "cpf": "076.187.298-09",
+    "telefone": "(21) 96689-3153",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Pedro Almeida",
+    "idade": 53,
+    "cidade": "Curitiba",
+    "perfil_investidor": "medio risco",
+    "score": 390,
+    "cpf": "077.188.299-10",
+    "telefone": "(31) 93017-6381",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Ana Rodrigues",
+    "idade": 60,
+    "cidade": "Rio de Janeiro",
+    "perfil_investidor": "alto risco",
+    "score": 120,
+    "cpf": "078.189.300-11",
+    "telefone": "(31) 93501-2482",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Juliana Almeida",
+    "idade": 44,
+    "cidade": "Salvador",
+    "perfil_investidor": "medio risco",
+    "score": 900,
+    "cpf": "079.190.301-12",
+    "telefone": "(21) 98989-1551",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Lucas Souza",
+    "idade": 61,
+    "cidade": "Rio de Janeiro",
+    "perfil_investidor": "alto risco",
+    "score": 360,
+    "cpf": "080.191.302-13",
+    "telefone": "(51) 96334-9559",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Camila Silva",
+    "idade": 46,
+    "cidade": "Rio de Janeiro",
+    "perfil_investidor": "conservador",
+    "score": 690,
+    "cpf": "081.192.303-14",
+    "telefone": "(31) 99527-3390",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Camila Oliveira",
+    "idade": 54,
+    "cidade": "Fortaleza",
+    "perfil_investidor": "conservador",
+    "score": 390,
+    "cpf": "082.193.304-15",
+    "telefone": "(31) 97514-3784",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Juliana Rodrigues",
+    "idade": 21,
+    "cidade": "Rio de Janeiro",
+    "perfil_investidor": "medio risco",
+    "score": 890,
+    "cpf": "083.194.305-16",
+    "telefone": "(11) 99720-2843",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Lucas Lima",
+    "idade": 52,
+    "cidade": "Curitiba",
+    "perfil_investidor": "alto risco",
+    "score": 360,
+    "cpf": "084.195.306-17",
+    "telefone": "(85) 99703-3697",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Rafael Rodrigues",
+    "idade": 24,
+    "cidade": "Rio de Janeiro",
+    "perfil_investidor": "alto risco",
+    "score": 190,
+    "cpf": "085.196.307-18",
+    "telefone": "(21) 98700-8521",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Lucas Oliveira",
+    "idade": 67,
+    "cidade": "Porto Alegre",
+    "perfil_investidor": "conservador",
+    "score": 530,
+    "cpf": "086.197.308-19",
+    "telefone": "(41) 94326-6830",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Pedro Lima",
+    "idade": 30,
+    "cidade": "Salvador",
+    "perfil_investidor": "medio risco",
+    "score": 310,
+    "cpf": "087.198.309-20",
+    "telefone": "(31) 95191-2681",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "João Pereira",
+    "idade": 51,
+    "cidade": "Brasília",
+    "perfil_investidor": "alto risco",
+    "score": 780,
+    "cpf": "088.199.310-21",
+    "telefone": "(51) 96153-3384",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Camila Oliveira",
+    "idade": 25,
+    "cidade": "Rio de Janeiro",
+    "perfil_investidor": "medio risco",
+    "score": 1000,
+    "cpf": "089.200.311-22",
+    "telefone": "(71) 96518-5209",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Fernanda Santos",
+    "idade": 18,
+    "cidade": "Salvador",
+    "perfil_investidor": "conservador",
+    "score": 400,
+    "cpf": "090.201.312-23",
+    "telefone": "(71) 92056-7437",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Maria Nascimento",
+    "idade": 39,
+    "cidade": "Rio de Janeiro",
+    "perfil_investidor": "alto risco",
+    "score": 70,
+    "cpf": "091.202.313-24",
+    "telefone": "(51) 95617-4093",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Juliana Pereira",
+    "idade": 58,
+    "cidade": "Porto Alegre",
+    "perfil_investidor": "conservador",
+    "score": 810,
+    "cpf": "092.203.314-25",
+    "telefone": "(85) 91492-8227",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Rafael Pereira",
+    "idade": 25,
+    "cidade": "Brasília",
+    "perfil_investidor": "medio risco",
+    "score": 980,
+    "cpf": "093.204.315-26",
+    "telefone": "(51) 98795-6639",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Camila Rodrigues",
+    "idade": 30,
+    "cidade": "São Paulo",
+    "perfil_investidor": "medio risco",
+    "score": 70,
+    "cpf": "094.205.316-27",
+    "telefone": "(41) 92692-3029",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Maria Souza",
+    "idade": 20,
+    "cidade": "Rio de Janeiro",
+    "perfil_investidor": "medio risco",
+    "score": 530,
+    "cpf": "095.206.317-28",
+    "telefone": "(31) 94896-7063",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Ana Santos",
+    "idade": 48,
+    "cidade": "São Paulo",
+    "perfil_investidor": "conservador",
+    "score": 670,
+    "cpf": "096.207.318-29",
+    "telefone": "(85) 91978-4244",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Camila Santos",
+    "idade": 59,
+    "cidade": "Rio de Janeiro",
+    "perfil_investidor": "alto risco",
+    "score": 890,
+    "cpf": "097.208.319-30",
+    "telefone": "(51) 98839-3966",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Fernanda Lima",
+    "idade": 36,
+    "cidade": "Porto Alegre",
+    "perfil_investidor": "alto risco",
+    "score": 270,
+    "cpf": "098.209.320-31",
+    "telefone": "(85) 98128-5031",
+    "adimplencia": "inadimplente"
+  },
+  {
+    "nome": "Fernanda Oliveira",
+    "idade": 70,
+    "cidade": "Fortaleza",
+    "perfil_investidor": "alto risco",
+    "score": 400,
+    "cpf": "099.210.321-32",
+    "telefone": "(31) 97426-1191",
+    "adimplencia": "adimplente"
+  },
+  {
+    "nome": "Maria Costa",
+    "idade": 68,
+    "cidade": "Fortaleza",
+    "perfil_investidor": "alto risco",
+    "score": 110,
+    "cpf": "100.211.322-33",
+    "telefone": "(21) 96403-2253",
+    "adimplencia": "adimplente"
+  }
+]
