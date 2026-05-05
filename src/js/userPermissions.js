@@ -1,7 +1,6 @@
 //RF 04 Listar Usuarios - login e usuarios registrados
 import database from './database_CH.json';
 
-console.log(database)
 
 
 
