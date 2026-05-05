@@ -40,3 +40,4 @@ Sistema de gestão de clientes com foco em trazer funcionalidades de consulta a 
 # Apresentação
 
 <li><a href="presentation/README.md"> Apresentação da solução</a></li>
+<li><a href="src/paginaInicial.html"> Pagina inicial da aplicação </a></li>
