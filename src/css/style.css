@@ -342,7 +342,9 @@ article {
   width: 100%;
 }
 
-.historico-busca > span {
+.historico-busca > span,
+.historico-acoes > span
+ {
   display: inline-block;
   margin-bottom: 16px;
   font-size: 1rem;

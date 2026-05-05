@@ -1,5 +1,7 @@
 //RF 04 Listar Usuarios - login e usuarios registrados
+import database from './database_CH.json';
 
+console.log(database)
 
 
 
@@ -7,7 +9,7 @@
 
 const formDados = document.querySelector("form");
 const formSenha = document.getElementsByName("confirmacao");
-const registroUsers = JSON.stringify
+const registroUsers = JSON.stringify;
 
 formDados.addEventListener("submit", (event) => {
     event.preventDefault(); // Pagina nao recarrega
@@ -39,11 +41,6 @@ formDados.addEventListener("submit", (event) => {
 });
 
 
-
-
-
-
-
 // RF 04 Editar usuarios - editar os usuarios que ja estao cadsatrados
 
 
@@ -58,8 +55,16 @@ formDados.addEventListener("submit", (event) => {
 
 
 
-
 // RF 06 Restringir exibicao de dados sensiveis conforme perfil - checar id do perfil e mostrar itens se tiver aprovacao
 
+/* if(Gerente OR Analista){
+        DadosClientes.
+}
 
+
+
+
+
+
+*/
 
