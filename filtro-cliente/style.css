@@ -83,14 +83,15 @@ input::placeholder {
 .side-menu {
   position: fixed;
   top: 0;
-  left: -280px;
+  left: 0;
+  transform: translateX(-100%);
   width: 280px;
   height: 100vh;
   background: #555C73;
   color: #fff;
   box-shadow: 2px 0 12px rgba(0,0,0,0.4);
   padding: 20px;
-  transition: left 300ms ease;
+  transition: transform 300ms ease;
   z-index: 80;
   overflow-y: auto;
 }
@@ -124,12 +125,14 @@ input::placeholder {
   z-index: 70;
   opacity: 0;
   transition: opacity 200ms ease;
+  display: none; /* hide by default when hidden attribute present */
 }
 
+.menu-overlay[hidden] { display: none; }
+
 /* Active state */
-.menu-open .side-menu { left: 0; }
-.menu-open .menu-overlay { opacity: 1; }
-.menu-open .menu-overlay[hidden] { display: block; }
+.menu-open .side-menu { transform: translateX(0); }
+.menu-open .menu-overlay { opacity: 1; display: block; }
 
 /* Animate hamburger to X */
 .menu-open .hamburger span:nth-child(1) { transform: translateY(10px) rotate(45deg); }
