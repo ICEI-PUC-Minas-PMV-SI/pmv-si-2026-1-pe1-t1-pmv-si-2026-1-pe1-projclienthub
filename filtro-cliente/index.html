@@ -73,41 +73,7 @@
     <button>Exportar Excel</button>
   </div>
 
-  <script>
-    (function () {
-      const hamburger = document.querySelector('.hamburger');
-      const side = document.querySelector('.side-menu');
-      const overlay = document.querySelector('.menu-overlay');
-      const closeBtn = document.querySelector('.close-menu');
-      const root = document.documentElement;
-
-      function openMenu() {
-        root.classList.add('menu-open');
-        hamburger.setAttribute('aria-expanded', 'true');
-        side.setAttribute('aria-hidden', 'false');
-        overlay.removeAttribute('hidden');
-      }
-
-      function closeMenu() {
-        root.classList.remove('menu-open');
-        hamburger.setAttribute('aria-expanded', 'false');
-        side.setAttribute('aria-hidden', 'true');
-        overlay.setAttribute('hidden', '');
-      }
-
-      hamburger.addEventListener('click', function () {
-        if (root.classList.contains('menu-open')) closeMenu(); else openMenu();
-      });
-
-      closeBtn.addEventListener('click', closeMenu);
-      overlay.addEventListener('click', closeMenu);
-
-      // Close on Escape
-      document.addEventListener('keydown', function (e) {
-        if (e.key === 'Escape' && root.classList.contains('menu-open')) closeMenu();
-      });
-    })();
-  </script>
+  <script src="script.js"></script>
 
 </body>
 </html>
