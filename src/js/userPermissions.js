@@ -1,15 +1,11 @@
 //RF 04 Listar Usuarios - login e usuarios registrados
-import database from './database_CH.json';
 
-console.log(database)
 
 
 
 //RF 04 Cadastrar Usuarios - criar conta e definir tipo de usuario
 
 const formDados = document.querySelector("form");
-const formSenha = document.getElementsByName("confirmacao");
-const registroUsers = JSON.stringify;
 
 formDados.addEventListener("submit", (event) => {
     event.preventDefault(); // Pagina nao recarrega
