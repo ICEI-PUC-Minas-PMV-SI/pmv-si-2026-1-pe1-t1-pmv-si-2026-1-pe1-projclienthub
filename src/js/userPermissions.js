@@ -1,22 +1,12 @@
 //RF 04 Listar Usuarios - login e usuarios registrados
 
-// function LoginUsuarios (){
-//     let userRegis = document.querySelector("div")
 
-//     if (userRegis.className == "registrados"){
-//         for (let i = 0; i < listaUsuarios.length; i++){
-//             const nomeUsuario = listaUsuarios[i];
-//             userRegis.textContent = 
-//              nomeUsuario["nome"],
-//              nomeUsuario["numero"], 
-//              nomeUsuario["email"]
-//         }
-//     }
-// }
+
 
 //RF 04 Cadastrar Usuarios - criar conta e definir tipo de usuario
 
 const formDados = document.querySelector("form");
+var listaUsuarios = JSON.parse(localStorage.getItem("usuariosRegistrados"))
 
 formDados.addEventListener("submit", (event) => {
     event.preventDefault(); // Pagina nao recarrega
@@ -36,7 +26,7 @@ formDados.addEventListener("submit", (event) => {
 
         if (dadosUsers){
             const userLogin = { ...dadosUsers, ...senhaData }
-            let listaUsuarios = JSON.parse(localStorage.getItem("usuariosRegistrados")) || [];
+            listaUsuarios = JSON.parse(localStorage.getItem("usuariosRegistrados")) || [];
             listaUsuarios.push(userLogin);
             localStorage.setItem("usuariosRegistrados", JSON.stringify(listaUsuarios));
             localStorage.removeItem("dadosUsers");
@@ -47,6 +37,19 @@ formDados.addEventListener("submit", (event) => {
 
 // RF 04 Editar usuarios - editar os usuarios que ja estao cadsatrados
 
+function LoginUsuarios (){
+    let userRegis = document.querySelector("div")
+
+    if (userRegis.className == "registrados"){
+        for (let i = 0; i < listaUsuarios.length; i++){
+            const myUsuario = listaUsuarios[i];
+            userRegis.textContent = 
+             myUsuario["nome"] + " " +
+             myUsuario["numero"] + " " +
+             myUsuario["email"]
+        }
+    }
+}
 
 
 
