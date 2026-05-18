@@ -32,17 +32,198 @@
     <p>WELCOME, LARISSA</p><br>
     <input type="text" placeholder="PESQUISAR">
     <div class="imagens-ilustrativas">
-      <img src="" alt="NOVO CLIENTE">
-      <img src="" alt="CONTAS ATIVAS">
-      <img src="" alt="CONTAS INATIVAS">
-      <img src="" alt="TOTAL DE CLIENTES">
-      <img src="" alt="ATIVIDADE RECENTE">
+      <img src="" alt="">
+    
+
+      <h1 id="total"></h1>
+      <h1 id="inadimplente"></h1>
+      <h1 id="percentual"></h1>
+
+
+      <div class="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+  <div class="relative mx-4 mt-4 flex flex-col gap-4 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none md:flex-row md:items-center">
+    <div class="w-max rounded-lg bg-gray-900 p-5 text-white">
+      
     </div>
+    <div>
+      <h3 class="block font-sans text-base font-semibold leading-relaxed tracking-normal text-blue-gray-900 antialiased">
+        Gráfico de Barra
+      </h3>
+      
+    </div>
+  </div>
+  <div class="pt-6 px-2 pb-0">
+    <div id="bar-chart"></div>
+  </div>
+</div>
+ 
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script>
+
+setTimeout(() => {
+const chartConfig = {
+  series: [
+    {
+      name: "Quant",
+      data: [ total, ativos, Ina],
+    },
+  ],
+  chart: {
+    type: "bar",
+    height: 300,
+    toolbar: {
+      show: false,
+    },
+  },
+  title: {
+    show: "",
+  },
+  dataLabels: {
+    enabled: true,
+  },
+  colors: ["#020617"],
+  plotOptions: {
+    bar: {
+      columnWidth: "40%",
+      borderRadius: 2,
+    },
+  },
+  xaxis: {
+    axisTicks: {
+      show: false,
+    },
+    axisBorder: {
+      show: false,
+    },
+    labels: {
+      style: {
+        colors: "#616161",
+        fontSize: "12px",
+        fontFamily: "inherit",
+        fontWeight: 400,
+      },
+    },
+    categories: [
+      "Total Clientes",
+      "Contas Ativas",
+      "Contas Inativas",
+    ],
+  },
+  yaxis: {
+    labels: {
+      style: {
+        colors: "#616161",
+        fontSize: "12px",
+        fontFamily: "inherit",
+        fontWeight: 400,
+      },
+    },
+  },
+  grid: {
+    show: true,
+    borderColor: "#dddddd",
+    strokeDashArray: 5,
+    xaxis: {
+      lines: {
+        show: true,
+      },
+    },
+    padding: {
+      top: 5,
+      right: 20,
+    },
+  },
+  fill: {
+    opacity: 0.8,
+  },
+  tooltip: {
+    theme: "dark",
+  },
+};
+ 
+const chart = new ApexCharts(document.querySelector("#bar-chart"), chartConfig);
+ 
+chart.render();
+},500);
+</script>
+
+<div class="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+  <div class="relative mx-4 mt-4 flex flex-col gap-4 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none md:flex-row md:items-center">
+    <div class="w-max rounded-lg bg-gray-900 p-5 text-white">
+     
+    </div>
+    <div>
+      <h3 class="block font-sans text-base font-semibold leading-relaxed tracking-normal text-blue-gray-900 antialiased">
+        Gráfico Clientes ATVIOS / INATIVOS
+      </h3>
+      <p class="block max-w-sm font-sans text-sm font-normal leading-normal text-gray-700 antialiased">
+        
+      </p>
+    </div>
+  </div>
+  <div class="py-6 mt-4 grid place-items-center px-2">
+    <div id="pie-chart"></div>
+  </div>
+</div>
+ 
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script>
+  setTimeout(() => {
+const chartConfig = {
+  series: [ percentualT, perRestanteT],
+
+  labels: [
+    'ATIVOS',
+    'INATIVOS'
+  ],
+
+  tooltip:{
+    y: {
+      formatter: function(value){
+        return value + '%';
+      }
+    }
+  },
+
+  chart: {
+    type: "pie",
+    width: 280,
+    height: 280,
+    toolbar: {
+      show: false,
+    },
+  },
+  title: {
+    show: "",
+  },
+  dataLabels: {
+    enabled: true,
+  },
+  colors: ["#00b7ff", "#113f5c", "#00897b", "#1e88e5", "#d81b60"],
+  legend: {
+    show: false,
+  },
+  
+};
+ 
+const chart = new ApexCharts(document.querySelector("#pie-chart"), chartConfig);
+ 
+chart.render();
+  },500);
+</script>
+
+
+
+      
 
 
   </article>
 
+ 
+
   <footer>© 2026 ClientHub Solutions</footer>
+
+  <script src ="js/dashboard.js"></script>
 
 </body>
 

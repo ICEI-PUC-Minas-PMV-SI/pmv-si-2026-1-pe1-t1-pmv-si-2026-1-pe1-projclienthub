@@ -31,32 +31,92 @@
     <div class="dashboard">
       <span>DASHBOARD</span>
     </div>
-
-    <div class="medias">
-      <!--  Por enquanto vamos manter as imagens  -->
-      <img src="" alt="Imagens medias">
+      <h1 id="total"></h1>
+      <h1 id="inadimplente"></h1>
+      <h1 id="percentual"></h1>
+      
     </div>
+    
 
-    <div class="Histórico-clientes">
-      <img src="" alt="imagem perfis">
-      <a href=""><button>Ver mais</button></a>
+    <div class="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+  <div class="relative mx-4 mt-4 flex flex-col gap-4 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none md:flex-row md:items-center">
+    <div class="w-max rounded-lg bg-gray-900 p-5 text-white">
+    
     </div>
-
-    <div class="grafico-pizza">
-      <img src="" alt="imagem_grafico_pizza">
+    <div>
+      <h2 class="block font-sans text-base font-semibold leading-relaxed tracking-normal text-blue-gray-900 antialiased">
+        Gráfico clientes por Score
+      </h2>
+      <p class="block max-w-sm font-sans text-sm font-normal leading-normal text-gray-700 antialiased">
+       
+      </p>
     </div>
+  </div>
+  <div class="py-6 mt-4 grid place-items-center px-2">
+    <div id="pie-chart"></div>
+  </div>
+</div>
+ 
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script>
+  setTimeout(()=>{
+const chartConfig = {
+  series: [score.baixo, score.medio, score.alto],
+  chart: {
+    type: "pie",
+    width: 520,
+    height: 350,
+    toolbar: {
+      show: false,
+    },
+  },
+  labels:[
+    'Baixo - 0 a 150',
+    'Medio - 151 a 450',
+    'Alto - + 451',
+   
+  ],
+  title: {
+    show: "",
+  },
+  dataLabels: {
+    enabled: true,
+  },
+  colors: ["#020617", "#ff8f00", "#00897b", "#1e88e5", "#d81b60"],
+  legend: {
+    show: true,
+     fontSize:'17px',
 
+     labels:{
+       colors: ['#ffffff','#ffffff','#ffffff'],
+     },
+    
+  },
+};
+ 
+const chart = new ApexCharts(document.querySelector("#pie-chart"), chartConfig);
+ 
+chart.render();
+  },500);
+</script>
+
+
+
+
+      <a href="perfilCliente.html"><button>Ver mais</button></a>
+    </div>
 
     <div class="funcionalidades">
       <a href="">Adicionar Novo Cliente</a>
-      <a href="">Pesquisar Cliente</a>
-      <a href="">Histórico</a>
+      <a href="pesquisa.html">Pesquisar Cliente</a>
+      <a href="historico.html">Histórico</a>
     </div>
 
 
   </article>
 
   <footer>© 2026 ClientHub Solutions</footer>
+  <script src="js/dashboard.js"></script>
 
 </body>
 
