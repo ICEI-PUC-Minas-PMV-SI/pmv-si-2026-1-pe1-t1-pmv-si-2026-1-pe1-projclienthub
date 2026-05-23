@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Client Hub</title>
+  <img src="imgs/logoCH.png" width="10%" alt="Client Hub Logo">
+  <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+  <nav>
+    <span>LARISSA G. SALES | ID: 7688</span> <br>
+    <span>LARISSAGS@CLIENTHUB.COM</span>
+
+    <div class="opcoes">
+      <ul>
+        <li><a href="dashboard.html">DASHBOARD</li></a>
+        <li><a href="pesquisa.html">PESQUISAR</li></a>
+        <li><a href="perfilCliente.html">CLIENTES</li></a>
+        <li><a href="historico.html">HISTÓRICO</li></a>
+        <li><a href="info.html">SOBRE ClientHub</li></a>
+      </ul>
+    </div>
+  </nav>
+
+  <article>
+    <div class="selected-client-card" id="selected-client-card">
+      <p id="selected-client-status">Selecione um cliente na pagina Pesquisar para visualizar o perfil completo.</p><br>
+      <div class="selected-client-grid" id="selected-client-grid" hidden>
+        <div class="selected-client-field">
+          <span>Nome</span>
+          <strong id="selected-client-name">-</strong>
+        </div>
+        <div class="selected-client-field">
+          <span>ID interno</span>
+          <strong id="selected-client-id">-</strong>
+        </div>
+        <div class="selected-client-field">
+          <span>CPF/CNPJ</span>
+          <strong id="selected-client-document">-</strong>
+        </div>
+        <div class="selected-client-field">
+          <span>Cidade</span>
+          <strong id="selected-client-city">-</strong>
+        </div>
+        <div class="selected-client-field">
+          <span>Perfil</span>
+          <strong id="selected-client-profile">-</strong>
+        </div>
+        <div class="selected-client-field">
+          <span>Status</span>
+          <strong id="selected-client-status-value">-</strong>
+        </div>
+      </div>
+      <div class="selected-client-actions">
+        <a href="pesquisa.html"><button type="button">Pesquisar cliente</button></a>
+      </div>
+    </div>
+    <div class="imagens-ilustrativas">
+      <img src="" alt="">
+    
+
+      <h1 id="total"></h1>
+      <h1 id="inadimplente"></h1>
+      <h1 id="percentual"></h1>
+
+
+      <div class="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+  <div class="relative mx-4 mt-4 flex flex-col gap-4 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none md:flex-row md:items-center">
+    <div class="w-max rounded-lg bg-gray-900 p-5 text-white">
+      
+    </div>
+    <div>
+      <h3 class="block font-sans text-base font-semibold leading-relaxed tracking-normal text-blue-gray-900 antialiased">
+        Gráfico de Barra
+      </h3>
+      
+    </div>
+  </div>
+  <div class="pt-6 px-2 pb-0">
+    <div id="bar-chart"></div>
+  </div>
+</div>
+ 
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script>
+
+setTimeout(() => {
+const chartConfig = {
+  series: [
+    {
+      name: "Quant",
+      data: [ total, ativos, Ina],
+    },
+  ],
+  chart: {
+    type: "bar",
+    height: 300,
+    toolbar: {
+      show: false,
+    },
+  },
+  title: {
+    show: "",
+  },
+  dataLabels: {
+    enabled: true,
+  },
+  colors: ["#020617"],
+  plotOptions: {
+    bar: {
+      columnWidth: "40%",
+      borderRadius: 2,
+    },
+  },
+  xaxis: {
+    axisTicks: {
+      show: false,
+    },
+    axisBorder: {
+      show: false,
+    },
+    labels: {
+      style: {
+        colors: "#616161",
+        fontSize: "12px",
+        fontFamily: "inherit",
+        fontWeight: 400,
+      },
+    },
+    categories: [
+      "Total Clientes",
+      "Contas Ativas",
+      "Contas Inativas",
+    ],
+  },
+  yaxis: {
+    labels: {
+      style: {
+        colors: "#616161",
+        fontSize: "12px",
+        fontFamily: "inherit",
+        fontWeight: 400,
+      },
+    },
+  },
+  grid: {
+    show: true,
+    borderColor: "#dddddd",
+    strokeDashArray: 5,
+    xaxis: {
+      lines: {
+        show: true,
+      },
+    },
+    padding: {
+      top: 5,
+      right: 20,
+    },
+  },
+  fill: {
+    opacity: 0.8,
+  },
+  tooltip: {
+    theme: "dark",
+  },
+};
+ 
+const chart = new ApexCharts(document.querySelector("#bar-chart"), chartConfig);
+ 
+chart.render();
+},500);
+</script>
+
+<div class="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+  <div class="relative mx-4 mt-4 flex flex-col gap-4 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none md:flex-row md:items-center">
+    <div class="w-max rounded-lg bg-gray-900 p-5 text-white">
+     
+    </div>
+    <div>
+      <h3 class="block font-sans text-base font-semibold leading-relaxed tracking-normal text-blue-gray-900 antialiased">
+        Gráfico Clientes ATIVOS / INATIVOS
+      </h3>
+      <p class="block max-w-sm font-sans text-sm font-normal leading-normal text-gray-700 antialiased">
+        
+      </p>
+    </div>
+  </div>
+  <div class="py-6 mt-4 grid place-items-center px-2">
+    <div id="pie-chart"></div>
+  </div>
+</div>
+ 
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script>
+  setTimeout(() => {
+const chartConfig = {
+  series: [ percentualT, perRestanteT],
+
+  labels: [
+    'ATIVOS',
+    'INATIVOS'
+  ],
+
+  tooltip:{
+    y: {
+      formatter: function(value){
+        return value + '%';
+      }
+    }
+  },
+
+  chart: {
+    type: "pie",
+    width: 280,
+    height: 280,
+    toolbar: {
+      show: false,
+    },
+  },
+  title: {
+    show: "",
+  },
+  dataLabels: {
+    enabled: true,
+  },
+  colors: ["#00b7ff", "#113f5c", "#00897b", "#1e88e5", "#d81b60"],
+  legend: {
+    show: false,
+  },
+  
+};
+ 
+const chart = new ApexCharts(document.querySelector("#pie-chart"), chartConfig);
+ 
+chart.render();
+  },500);
+</script>
+
+
+
+      
+
+
+  </article>
+
+ 
+
+  <footer>© 2026 ClientHub Solutions</footer>
+
+  <script src ="js/dashboard.js"></script>
+  <script src ="js/perfilCliente.js"></script>
+
+</body>
+
+</html>

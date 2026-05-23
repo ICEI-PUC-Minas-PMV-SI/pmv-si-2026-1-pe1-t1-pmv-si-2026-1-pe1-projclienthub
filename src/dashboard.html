@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Client Hub</title>
+  <img src="imgs/logoCH.png" width="10%" alt="Client Hub Logo">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <nav>
+    <span>LARISSA G. SALES | ID: 7688</span> <br>
+    <span>LARISSAGS@CLIENTHUB.COM</span>
+
+    <div class="opcoes">
+      <ul>
+        <li><a href="dashboard.html">DASHBOARD</li></a>
+        <li><a href="pesquisa.html">PESQUISAR</li></a>
+        <li><a href="perfilCliente.html">CLIENTES</li></a>
+        <li><a href="historico.html">HISTÓRICO</li></a>
+        <li><a href="info.html">SOBRE ClientHub</li></a>
+      </ul>
+    </div>
+  </nav>
+
+  <article>
+    <div class="dashboard">
+      <span>DASHBOARD</span>
+    </div>
+      <h1 id="total"></h1>
+      <h1 id="inadimplente"></h1>
+      <h1 id="percentual"></h1>
+      
+    </div>
+    
+
+    <div class="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+  <div class="relative mx-4 mt-4 flex flex-col gap-4 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none md:flex-row md:items-center">
+    <div class="w-max rounded-lg bg-gray-900 p-5 text-white">
+    
+    </div>
+    <div>
+      <h2 class="block font-sans text-base font-semibold leading-relaxed tracking-normal text-blue-gray-900 antialiased">
+        Gráfico clientes por Score
+      </h2>
+      <p class="block max-w-sm font-sans text-sm font-normal leading-normal text-gray-700 antialiased">
+       
+      </p>
+    </div>
+  </div>
+  <div class="py-6 mt-4 grid place-items-center px-2">
+    <div id="pie-chart"></div>
+  </div>
+</div>
+ 
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script>
+  setTimeout(()=>{
+const chartConfig = {
+  series: [score.baixo, score.medio, score.alto],
+  chart: {
+    type: "pie",
+    width: 520,
+    height: 350,
+    toolbar: {
+      show: false,
+    },
+  },
+  labels:[
+    'Baixo - 0 a 150',
+    'Medio - 151 a 450',
+    'Alto - + 451',
+   
+  ],
+  title: {
+    show: "",
+  },
+  dataLabels: {
+    enabled: true,
+  },
+  colors: ["#020617", "#ff8f00", "#00897b", "#1e88e5", "#d81b60"],
+  legend: {
+    show: true,
+     fontSize:'17px',
+
+     labels:{
+       colors: ['#ffffff','#ffffff','#ffffff'],
+     },
+    
+  },
+};
+ 
+const chart = new ApexCharts(document.querySelector("#pie-chart"), chartConfig);
+ 
+chart.render();
+  },500);
+</script>
+
+
+
+
+      <a href="perfilCliente.html"><button>Ver mais</button></a>
+    </div>
+
+    <div class="funcionalidades">
+      <a href="">Adicionar Novo Cliente</a>
+      <a href="pesquisa.html">Pesquisar Cliente</a>
+      <a href="historico.html">Histórico</a>
+    </div>
+
+
+  </article>
+
+  <footer>© 2026 ClientHub Solutions</footer>
+  <script src="js/dashboard.js"></script>
+
+</body>
+
+</html>
