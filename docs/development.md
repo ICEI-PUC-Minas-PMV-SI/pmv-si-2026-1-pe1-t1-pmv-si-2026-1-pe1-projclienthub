@@ -34,6 +34,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 - Concatenando os formularios de dados e senha em um unico objeto;
 - Redirecionamento para confirmacaoContaCriada.html;
 
+|  **Nome**      | **Tipo**          | **Descrição**                                           | **Exemplo**                        |
+|--------------|---------------------|---------------------------------------------------------|------------------------------------|
+| Id           | Numero (Inteiro)    | Identificador único do ClientHub                        | 0001                               |
+| Nome         | Texto               | Nome para acessar o sistema                             | Joao Silva                         |
+| Email        | Texto               | Email coorporativo do usuario para acesso               | joaosilva@chub.com                 |
+| Senha        | Texto               | Senha de acesso à conta da ONG                          | 23Abc!@#                           |
+
 # Requisitos 06, 07, 08 - Giovanna
 
 - Usuario acessa pesquisa.html e preenche com o nome, cpf ou id do cliente;
@@ -41,12 +48,31 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 - Retorna o objeto formatado e em elemento HTML na pagina;
 - Pagina de pesquisa mostra ate 10 clientes por paginação;
 
+
+|  **Nome**      | **Tipo**          | **Descrição**                                           | **Exemplo**                        |
+|--------------|---------------------|---------------------------------------------------------|------------------------------------|
+| Id           | Numero (Inteiro)    | Identificador único do ClientHub                        | 0001                               |
+| Nome         | Texto               | Nome para acessar o sistema                             | Joao Silva                         |
+| CPF          | Texto               | CPF do cliente para busca                               | 123.456.789-10                     |
+| Cidade       | Texto               | Cidade do usuario                                       | Curitiba                           |
+| Perfil       | Texto               | Perfil investidor                                       | Alto risco                         |
+| Score        | Numero (Inteiro)    | Score de credito do usuario                             | 450                                |
+| Status       | Texto               | Status de atividade do usuario                          | adimplente                         |
+
 # Requisitos 13,14 - Pietro
 
 - Usuario acessa dashboard.html;
 - Fetch nos dados de database_CH.json e checa objetos pelos campos filtrados;
 - Retorna elemento HTML chart com grafico de adimplentes/inadimplentes e score;
 - Em perfilCliente.html, grafico de clientes ativos e inativos;
+
+  
+|  **Nome**                   | **Tipo**          | **Descrição**                             | **Exemplo**                        |
+|-----------------------------|-------------------|-------------------------------------------|------------------------------------|
+| Total de clientes           | Numero (Inteiro)  | Total de clientes cadastrados             | 100                                |
+| Contas Inadimplentes        | Numero (Inteiro)  | Numero de contas inadimplentes            | 20                                 |
+| Percentual de inadimplencia | Numero (double)   | Percentual de contas inadimplentes        | 20.00%                             |
+| Grafico clientes por score  | Imagem            | Grafico de score baixo, medio e alto      | Baixo                              |
 
 # 16,17,18 - Rodrigo
 
