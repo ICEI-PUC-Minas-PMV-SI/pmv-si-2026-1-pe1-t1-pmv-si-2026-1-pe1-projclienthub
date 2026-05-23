@@ -10,8 +10,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 | ID     | Descrição do Requisito                                                                                                               | Responsável   | Artefato Criado                                            |
 |--------|--------------------------------------------------------------------------------------------------------------------------------------|---------------|------------------------------------------------------------|
+| RF-001 | Exibir tela de login com campos de usuário e senha, validar credenciais e exibir mensagem de erro em caso de falha                   | Leorges          | login.html, esqueceuSenha.html              |
+| RF-002 | Bloquear acesso após tentativas inválidas consecutivas e encerrar sessão automaticamente por inatividade                             | Leorges          | login.html, esqueceuSenha.html                |
 | RF-004 | Listar, cadastrar e editar usuários com nome, e-mail, perfil de acesso e status                                                      | Davi          | userPermissions.js, criarConta.html              |
-| RF-005 | Definir e restringir perfis de acesso (Administrador, Analista, Gerente, Operador), bloqueando áreas não autorizadas                 | Davi          | confirmacaoContaCriada.html, gerenciarUsuarios.js |
+| RF-005 | Definir e restringir perfis de acesso (Administrador, Analista, Gerente, Operador), bloqueando áreas não autorizadas                 | Davi          | confirmacaoContaCriada.html, userPermissions.js |
 | RF-006 | Pesquisar cliente por CPF/CNPJ ou ID interno exibindo nome completo e identificação para confirmação                                 | Giovanna      | pesquisa.html, pesquisa.js                         |
 | RF-007 | Pesquisar cliente por nome com autocompletar a partir do 2º caractere                                                                | Giovanna      | pesquisa.html, pesquisa.js                         |
 | RF-008 | Listar clientes com paginação, total de registros e ordenação ascendente/descendente por qualquer coluna                             | Giovanna      | perfilCliente.html, perfilCliente.js                         |
@@ -27,6 +29,20 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 ---
 
+# Requisitos 01 e 02 - Leorges
+
+- Usuario acessa login.html para acesso ao sistema;
+- Preenche os campos com login e senha cadastrados;
+- Caso tenta esquecido a senha usuario acessa esqueceuSenha.html;
+- Preenche os campos para envio de redefinicao de senha;
+
+Exemplo:
+
+<img width="1207" height="729" alt="image" src="https://github.com/user-attachments/assets/ba3dd288-49fa-4b14-95b3-60113c3c6bd3" />
+
+
+
+
 # Requisitos 04 e 05 - Davi
 
 - Usuario acessa pagina criarConta.html e preenche os campos com seus dados;
@@ -40,6 +56,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | Nome         | Texto               | Nome para acessar o sistema                             | Joao Silva                         |
 | Email        | Texto               | Email coorporativo do usuario para acesso               | joaosilva@chub.com                 |
 | Senha        | Texto               | Senha de acesso à conta da ONG                          | 23Abc!@#                           |
+
+Exemplo:
+
+<img width="1200" height="459" alt="image" src="https://github.com/user-attachments/assets/9651a9ed-374a-4609-834f-f790dab0f866" />
+
 
 # Requisitos 06, 07, 08 - Giovanna
 
@@ -59,6 +80,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | Score        | Numero (Inteiro)    | Score de credito do usuario                             | 450                                |
 | Status       | Texto               | Status de atividade do usuario                          | adimplente                         |
 
+Exemplo:
+
+<img width="1200" height="944" alt="image" src="https://github.com/user-attachments/assets/7152a7f2-0fe9-42d9-8f37-a56b4f32dee6" />
+
+
 # Requisitos 13,14 - Pietro
 
 - Usuario acessa dashboard.html;
@@ -74,7 +100,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | Percentual de inadimplencia | Numero (double)   | Percentual de contas inadimplentes        | 20.00%                             |
 | Grafico clientes por score  | Imagem            | Grafico de score baixo, medio e alto      | Baixo                              |
 
-# 16,17,18 - Rodrigo
+Exemplo:
+
+<img width="1255" height="802" alt="image" src="https://github.com/user-attachments/assets/9ea83c3d-cbf0-43b2-8a09-37abbf487edd" />
+
+
+# Requisitos 16,17,18 - Rodrigo
 
 
 
