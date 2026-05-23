@@ -106,6 +106,19 @@ Exemplo:
 
 
 # Requisitos 16,17,18 - Rodrigo
+- Usuario entra no historico de clientes;
+- Filtra por nome, status e data para relatório;
+- Gera relatorio e sistema devolve tabela com os dados;
+
+|  **Nome**                   | **Tipo**          | **Descrição**                             | **Exemplo**                        |
+|-----------------------------|-------------------|-------------------------------------------|------------------------------------|
+| Nome completo               | Texto             | Nome do cliente registrado                | João Silva                         |
+| Saldo na conta              | Numero (Inteiro)  | Saldo total em reais na conta do cliente  | R$ 1500                            |
+| Status                      | Texto             | Percentual de contas inadimplentes        | Ativo                              |
+
+Exemplo:
+
+<img width="1152" height="490" alt="image" src="https://github.com/user-attachments/assets/d01ba7a6-97f6-4157-bf95-886e1c17ffa3" />
 
 
 
