@@ -6,7 +6,7 @@
 |------|-------|
 | Total de requisitos | 10 |
 | Total de casos de teste | 10 |
-| Responsáveis | Leorges, Davi, Giovanna, Pietro, Rodrigo |
+| Responsáveis | Leorges, Davi, Giovanna, Pietro |
 | Abordagem | Caixa preta |
 
 ---
