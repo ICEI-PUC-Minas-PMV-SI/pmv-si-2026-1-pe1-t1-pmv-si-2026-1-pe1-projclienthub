@@ -1,8 +1,3 @@
-//RF 04 Listar Usuarios - login e usuarios registrados
-
-
-
-
 //RF 04 Cadastrar Usuarios - criar conta e definir tipo de usuario
 
 const formDados = document.querySelector("form");
@@ -35,45 +30,43 @@ formDados.addEventListener("submit", (event) => {
     }
 });
 
-// RF 04 Editar usuarios - editar os usuarios que ja estao cadsatrados
+// RF 01 - Login e autenticacao do usuario
+const formLogin = document.getElementById('userLogin');
 
-function LoginUsuarios (){
-    let userRegis = document.querySelector("div")
+formLogin.addEventListener("submit", (event) => {
+    event.preventDefault(); // Evita o recarregamento da página
 
-    if (userRegis.className == "registrados"){
-        for (let i = 0; i < listaUsuarios.length; i++){
-            const myUsuario = listaUsuarios[i];
-            userRegis.textContent = 
-             myUsuario["nome"] + " " +
-             myUsuario["numero"] + " " +
-             myUsuario["email"]
+    const login = document.getElementById('user').value;
+    const senha = document.getElementById('senha').value;
+    let usuarioEncontrado = false;
+
+    for (let i = 0; i < listaUsuarios.length; i++) {
+        if (login === listaUsuarios[i].email && senha === listaUsuarios[i].password) {
+            alert('Bem-vindo ao Client Hub!');
+            location.href = "dashboard.html";
+            usuarioEncontrado = true;
+            break; // Sai do loop após encontrar o usuário
         }
+    }
+
+    if (!usuarioEncontrado) {
+        alert('Falha na senha ou login');
+    }
+});
+
+// Exibir nome usuario e email enquanto logado
+
+function nomeUser() {
+    var nomeUsuario = document.getElementById("username");
+    var emailUsuario = document.getElementById("usermail");
+
+    if (listaUsuarios && listaUsuarios.length > 0) {
+        nomeUsuario.innerText = listaUsuarios[0].nome;
+        emailUsuario.innerText = listaUsuarios[0].email;
+    } else {
+        nomeUsuario.innerText = "Usuário não encontrado";
+        emailUsuario.innerText = "";
     }
 }
 
-
-
-// RF 05 - Definir perfis de acesso e bloquear areas nao autorizadas
-// 1- Admin, 2- Gerente, 3- Analista e 4- Operador
-
-
-
-
-
-
-
-// RF 06 Restringir exibicao de dados sensiveis conforme perfil - checar id do perfil e mostrar itens se tiver aprovacao
-
-
-
-/* if(Gerente OR Analista){
-        DadosClientes.
-}
-
-
-
-
-
-
-*/
-
+window.onload = nomeUser;
