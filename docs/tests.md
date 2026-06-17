@@ -154,7 +154,16 @@
 **Arquivos** | `dashboard.html`, `dashboard.js`
 **Dados de entrada** | Base com clientes ativos e ao menos um inadimplente
 **Resultado esperado** | Cards exibindo valores corretos e consistentes com a base de dados
-**Resultado obtido** | Pendente
+**Resultado obtido** | Dashboard com total de clientes, clientes ativos e clientes inadimplentes.
+
+
+
+
+https://github.com/user-attachments/assets/18f15766-5109-489e-ab14-3b462112ad9e
+
+
+
+
 
 ---
 
@@ -173,8 +182,9 @@
 **Arquivos** | `dashboard.html`, `dashboard.js`
 **Dados de entrada** | Clientes cadastrados com scores variados
 **Resultado esperado** | Gráfico exibido com faixas de score e quantidades corretas
-**Resultado obtido** | Pendente
+**Resultado obtido** | Gráfico de pizza com descrição das faixas de score
 
+https://github.com/user-attachments/assets/bdce6776-3d52-4102-89ea-068457d80be8
 ---
 
 # Avaliação dos Testes de Software
