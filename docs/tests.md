@@ -226,8 +226,9 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja acessar determinado cliente do banco e saber qual as informações dele para realizar um empréstimo para ele. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
+| 1             | Analista deseja acessar determinado cliente do banco e saber qual as informações dele para realizar um empréstimo para ele. |
+| 2             | Gerente precisa avaliar como está o perfil de adimplência de 10 clientes para realizar a cobrança. |
+| 3             | Analista precisa ver e reunir todos os clientes de medio risco na base de dados. |
 
 
 
@@ -249,21 +250,37 @@ Cenário 1: Você é uma pessoa que deseja acessar determinado cliente do banco 
     Não tive dificuldades e acho que ficou bem intuitivo.
 
 
-Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
+Cenário 2: Gerente precisa avaliar como está o perfil de adimplência de 10 clientes para realizar a cobrança. 
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
+| 1       | SIM             | 5                    | 1:41.54 segundos                          |
+| 2       | SIM             | 5                    | 1:31.42 segundos                          |
+| 3       | SIM             | 4                    | 1:36.21 segundos                          |
 |  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**     | 100%           | 4.67                | 1:36.39 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 1:13.57 segundos |
 
 
     Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
     redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
     tanto na hora da pesquisa, quanto depois dela, nos resultados.
+
+Cenário 3: Analista precisa ver e reunir todos os clientes de medio risco na base de dados. 
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 20.08 segundos                  |
+| 2       | SIM             | 5                    | 22.11 segundos                  |
+| 3       | SIM             | 5                    | 19.09 segundos                  |
+|  |  |  |  |
+| **Média**     | 100%           | 5                | 20.42 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 17.66 segundos |
+
+
+    Comentários dos usuários: Achei o site muito bom mas tive dificuladade de entender como fazeria essa busca. 
+    Mas poderia ter filtros melhores indicados
+
 
 ## Avaliação dos Testes de Usabilidade
 
