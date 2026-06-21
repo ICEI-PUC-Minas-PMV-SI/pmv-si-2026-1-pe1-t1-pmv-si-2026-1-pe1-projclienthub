@@ -75,7 +75,7 @@
 **Arquivos** | `pesquisa.html`, `pesquisa.js`
 **Dados de entrada** | CPF de um cliente ativo no sistema
 **Resultado esperado** | Nome completo e identificação do cliente exibidos para confirmação
-**Resultado obtido** | 
+**Resultado obtido** | Pesquisa é possível pelo CPF e identifica corretamente o cliente
 
 ---
 
@@ -86,7 +86,7 @@
 **Arquivos** | `pesquisa.html`, `pesquisa.js`
 **Dados de entrada** | CNPJ de um cliente ativo no sistema
 **Resultado esperado** | Razão social e identificação do cliente exibidos para confirmação
-**Resultado obtido** | Pendente
+**Resultado obtido** | Não é encontrado cliente na base de dados
 
 ---
 
@@ -105,7 +105,7 @@
 **Arquivos** | `pesquisa.html`, `pesquisa.js`
 **Dados de entrada** | Clientes com nomes iniciados com os caracteres inseridos
 **Resultado esperado** | Sugestões de nomes exibidas a partir do 2º caractere digitado
-**Resultado obtido** | Pendente
+**Resultado obtido** | Clientes sugeridos aparecem de acordo com o autocompletar
 
 ---
 
@@ -124,7 +124,7 @@
 **Arquivos** | `perfilCliente.html`, `perfilCliente.js`
 **Dados de entrada** | Base de clientes com mais registros do que o limite por página
 **Resultado esperado** | Lista de clientes exibida com paginação funcional e total de registros correto
-**Resultado obtido** | Pendente
+**Resultado obtido** | Controle de acordo listando sempre até 10 clientes por página
 
 ---
 
@@ -135,7 +135,7 @@
 **Arquivos** | `perfilCliente.html`, `perfilCliente.js`
 **Dados de entrada** | Lista de clientes com valores distintos nas colunas
 **Resultado esperado** | Dados reordenados corretamente em ambos os sentidos para qualquer coluna
-**Resultado obtido** | Pendente
+**Resultado obtido** | Ordenação de filtros funcionando corretamente e alternando sentido entre ascendente e descendente
 
 ---
 
