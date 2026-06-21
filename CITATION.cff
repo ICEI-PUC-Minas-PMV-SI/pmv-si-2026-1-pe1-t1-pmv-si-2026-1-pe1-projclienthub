@@ -9,8 +9,20 @@ message: >-
 type: software
 authors:
   - given-names: Aluno 1
-    family-names: Nome Completo
-    email: aluno@pucminas.br
+    family-names: Davi Siqueira Rodrigues
+    email: davi.siqueira@sga.pucminas.br
+    affiliation: PUC Minas
+ - given-names: Aluno 2
+    family-names: Leorges Moraes da Fonseca
+    email: @sga.pucminas.br
+    affiliation: PUC Minas
+ - given-names: Aluno 3
+    family-names: Giovanna de Abreu Bertoletti
+    email: 1640234@sga.pucminas.br
+    affiliation: PUC Minas
+ - given-names: Aluno 4
+    family-names: Pietro Ferreira Sales
+    email: pfsales@sga.pucminas.br
     affiliation: PUC Minas
   - given-names: Hugo
     name-particle: 'B '
@@ -20,14 +32,15 @@ authors:
     affiliation: PUC Minas
     orcid: 'https://orcid.org/0000-0002-6193-3205'
 repository-code: >-
-  https://github.com/ICEI-PUC-Minas-PMV-SI/WebApplicationProject-Template
+  https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2026-1-pe1-t1-pmv-si-2026-1-pe1-projclienthub/
 abstract: >-
-  Descrever resumidamente, em um ou dois parágrafos, o
-  projeto que foi desenvolvido.
+  Projeto de aplicação web frontend com objetivo de gestão de dados sobre clientes de uma instituição financeira. 
+  Aplicação com funcionalidade principal de pesquisa em banco de dados em JSON, com filtros específicos de ordenação 
+  sobre dados relevantes do cliente. 
 keywords:
   - Desenvolvimento Web
   - HTML
   - CSS
   - JavaScript
   - Template
-date-released: '2024-06-23'
+date-released: '2026-06-21'
