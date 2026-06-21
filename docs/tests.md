@@ -189,11 +189,7 @@ https://github.com/user-attachments/assets/bdce6776-3d52-4102-89ea-068457d80be8
 
 # Avaliação dos Testes de Software
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
-
-## Testes de unidade automatizados (Opcional)
-
-Se o grupo tiver interesse em se aprofundar no desenvolvimento de testes de software, ele podera desenvolver testes automatizados de software que verificam o funcionamento das funções JavaScript desenvolvidas. Para conhecer sobre testes unitários em JavaScript, leia 0 documento  [Ferramentas de Teste para Java Script](https://geekflare.com/javascript-unit-testing/).
+Dentre os testes citados, todas as funcionalidades estão dentro do esperado atendendo à expectativa e objetivo da aplicação, com facilidade de fluxo entre telas.
 
 # Testes de Usabilidade
 
