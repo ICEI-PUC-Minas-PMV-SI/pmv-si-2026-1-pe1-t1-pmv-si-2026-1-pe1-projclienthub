@@ -1,47 +1,22 @@
 # Apresentação
-
-Faça uma apresentação de um resumo de todos o processo de desenvolvimento e no final apresente a solução desenvolvida, usando um pequeno vídeo.
-
-Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e descrição do conteúdo neste arquivo Readme.md.
-
-
-* [Pitch inicial](./sample-pitch.pdf) -- arquivo com os slides da apresentação inicial
-* [Apresentação final](./sample-presentation.pdf) -- arquivo com os slides da apresentação final
-* [Vídeo de demonstração](./sample-video.mp4) -- arquivo com a demonstração do funcionamento do sistema
-
-O conjunto de slides deve ser apresentado em um arquivo PowerPoint ou PDF. A apresentação do projeto deve contemplar todos os itens trabalhados nos demais artefatos. Alguns aspectos que devem ser contemplados na apresentação são listados a seguir.
-
-## Título do Projeto
-
-Nome e marca do projeto
-
-## Identidade Visual (Marca, Design)
-
-O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.
-
-> **Links Úteis**:
-> - [10 dicas de design para slides](https://rockcontent.com/blog/design-para-slides/)
-> - [7 dicas de design para criar apresentações de PowerPoint incríveis e eficientes](https://www.shutterstock.com/pt/blog/7-dicas-de-design-para-criar-apresentacoes-de-powerpoint-incriveis-e-eficientes)
-> - [Especialista do TED dá 10 dicas para criar slides eficazes e bonitos](https://soap.com.br/blog/especialista-do-ted-da-10-dicas-para-criar-slides-eficazes-e-bonitos)
+  O ClientHub é uma aplicação web desenvolvida com o objetivo de centralizar e facilitar o gerenciamento de informações de clientes, oferecendo uma interface intuitiva para consulta, acompanhamento e análise de perfis. O projeto busca transformar dados dispersos em informações organizadas e acessíveis, permitindo que usuários tenham uma visão mais clara de sua carteira de clientes e de suas características relevantes para tomada de decisão.
+  
+  O público-alvo da solução são profissionais e empresas que necessitam acompanhar informações cadastrais e financeiras de clientes de forma simples e eficiente, especialmente em contextos de relacionamento comercial, atendimento e análise de perfil. A plataforma foi concebida para atender usuários que precisam consultar rapidamente dados importantes sem depender de sistemas complexos ou processos manuais.
+  
+  Entre as principais funcionalidades estão a autenticação de usuários, pesquisa e visualização de clientes, dashboards com indicadores e recursos de filtragem e organização das informações. A interface foi projetada para oferecer uma navegação clara e responsiva, priorizando a experiência do usuário e a facilidade de acesso aos dados.
+  
+  O principal objetivo do projeto é fornecer uma ferramenta que auxilie na gestão e análise de clientes, apoiando a tomada de decisões por meio da visualização estruturada de informações relevantes. Além disso, o sistema serve como uma aplicação prática para consolidar conhecimentos de desenvolvimento web, desde a etapa de levantamento de requisitos até a implementação de interfaces funcionais e futuras integrações com mecanismos de persistência e análise de dados.
 
 ## Conjunto de Slides (Estrutura)
 
-O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro do tempo determinado. Importante ressaltar a importância da descrição clara de todo o andamento do projeto, insumos gerados e requisitos atendidos. Os arquivos devem ser postados na pasta [presentation](../presentation)
- 
-> **Links Úteis**:
-> - [A regra 10-20-30 para apresentações de sucesso](https://revistapegn.globo.com/Noticias/noticia/2014/07/regra-10-20-30-para-apresentacoes-de-sucesso.html)
-> - [Top Tips for Effective Presentations](https://www.skillsyouneed.com/present/presentation-tips.html)
-> - [How to make a great presentation](https://www.ted.com/playlists/574/how_to_make_a_great_presentation)
+Slides da apresentação do projeto - [Client Hub - Final](https://github.com/user-attachments/files/29182740/Client.Hub.pptx)
+
+
 
 ## Vídeo de demonstração
 
-O grupo deverá gravar um vídeo de demonstração do site desenvolvido.
 
-> **Algumas informações úteis**
-> - O vídeo deve se limitar a 5 minutos e deve apresentar os objetivos do projeto antes de mostrar o sistema desenvolvido.
-> - O vídeo deve possuir uma narração que explica o que está sendo apresentado.
-> - Foque nas principais tarefas que o seu sistema desenvolveu. Não é necessário apresentar cada detalhe implementado.
-> - Não é necessário que todos os integrantes do grupo participem da gravação.
-> - Não é necessário que a face de algum integrante do grupo apareça na gravação.
-> - Uma ótima ferramenta open-source para gravação de vídeos é o [OBS](https://obsproject.com/pt-br/download)
+
+https://github.com/user-attachments/assets/c10e7e72-80ff-413b-a40f-a94826ef6883
+
 
